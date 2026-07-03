@@ -2411,10 +2411,10 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2019,1,73,China PR,CHN,1333,1327,6
 2019,1,73,North Macedonia,MKD,1333,1350,-17
 2019,1,75,Panama,PAN,1322,1327,-5
-2019,1,76,Cape Verde Islands,CPV,1319,1319,0
+2019,1,76,Cabo Verde Islands,CPV,1319,1319,0
 2019,1,77,Iraq,IRQ,1315,1319,-4
 2019,1,78,Canada,CAN,1314,1314,0
-2019,1,79,Curacao,CUW,1302,1296,6
+2019,1,79,Curaçao,CUW,1302,1296,6
 2019,1,80,Uganda,UGA,1299,1302,-3
 2019,1,81,Zambia,ZAM,1298,1302,-4
 2019,1,82,Israel,ISR,1286,1285,1
@@ -2618,14 +2618,14 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2018,2,70,El Salvador,SLV,1327,1327,0
 2018,2,71,Panama,PAN,1326,1326,0
 2018,2,72,South Africa,RSA,1325,1325,0
-2018,2,72,Cape Verde Islands,CPV,1325,1325,0
+2018,2,72,Cabo Verde Islands,CPV,1325,1325,0
 2018,2,74,Syria,SYR,1322,1322,0
 2018,2,75,Uganda,UGA,1320,1320,0
 2018,2,76,Belarus,BLR,1317,1317,0
 2018,2,76,China PR,CHN,1317,1317,0
 2018,2,78,Canada,CAN,1314,1314,0
 2018,2,79,United Arab Emirates,UAE,1309,1309,0
-2018,2,80,Curacao,CUW,1306,1306,0
+2018,2,80,Curaçao,CUW,1306,1306,0
 2018,2,81,Lebanon,LBN,1296,1296,0
 2018,2,82,Oman,OMA,1295,1291,4
 2018,2,83,Zambia,ZAM,1292,1292,0
@@ -2828,7 +2828,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2018,1,69,Mali,MLI,1628,1628,0
 2018,1,70,China PR,CHN,1625,1625,0
 2018,1,71,South Africa,RSA,1623,1621,2
-2018,1,71,Cape Verde Islands,CPV,1623,1623,0
+2018,1,71,Cabo Verde Islands,CPV,1623,1623,0
 2018,1,73,Guinea,GUI,1613,1613,0
 2018,1,74,United Arab Emirates,UAE,1606,1606,0
 2018,1,75,FYR Macedonia,MKD,1601,1601,0
@@ -3033,7 +3033,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2017,2,64,Russia,RUS,534,534,0
 2017,2,65,Guinea,GUI,532,532,0
 2017,2,66,Finland,FIN,531,531,0
-2017,2,67,Cape Verde Islands,CPV,530,530,0
+2017,2,67,Cabo Verde Islands,CPV,530,530,0
 2017,2,68,Honduras,HON,525,521,4
 2017,2,69,Slovenia,SVN,522,522,0
 2017,2,70,Ecuador,ECU,508,508,0
@@ -3050,7 +3050,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2017,2,81,South Africa,RSA,433,434,-1
 2017,2,82,Benin,BEN,427,427,0
 2017,2,83,Luxembourg,LUX,407,407,0
-2017,2,83,Curacao,CUW,407,407,0
+2017,2,83,Curaçao,CUW,407,407,0
 2017,2,85,Lebanon,LIB,404,404,0
 2017,2,86,Guinea-Bissau,GNB,403,403,0
 2017,2,87,Trinidad and Tobago,TRI,402,402,0
@@ -3245,7 +3245,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2017,1,65,Uzbekistan,UZB,579,582,-3
 2017,1,66,Guinea,GUI,541,476,65
 2017,1,67,Bolivia,BOL,532,473,59
-2017,1,68,Curacao,CUW,531,492,39
+2017,1,68,Curaçao,CUW,531,492,39
 2017,1,69,Venezuela,VEN,521,630,-109
 2017,1,70,Israel,ISR,512,635,-123
 2017,1,71,Belarus,BLR,503,419,84
@@ -3292,7 +3292,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2017,1,112,Georgia,GEO,290,271,19
 2017,1,113,Korea DPR,PRK,288,307,-19
 2017,1,114,Tanzania,TAN,287,193,94
-2017,1,115,Cape Verde Islands,CPV,284,418,-134
+2017,1,115,Cabo Verde Islands,CPV,284,418,-134
 2017,1,116,Niger,NIG,283,236,47
 2017,1,117,Antigua and Barbuda,ATG,276,349,-73
 2017,1,118,Equatorial Guinea,EQG,272,318,-46
@@ -3463,11 +3463,11 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2016,2,73,Haiti,HAI,489,505,-16
 2016,2,74,Belarus,BLR,470,470,0
 2016,2,75,Honduras,HON,467,461,6
-2016,2,75,Curacao,CUW,467,467,0
+2016,2,75,Curaçao,CUW,467,467,0
 2016,2,77,Jamaica,JAM,463,461,2
 2016,2,78,Trinidad and Tobago,TRI,451,454,-3
 2016,2,79,Guatemala,GUA,450,450,0
-2016,2,80,Cape Verde Islands,CPV,443,443,0
+2016,2,80,Cabo Verde Islands,CPV,443,443,0
 2016,2,80,St. Kitts and Nevis,SKN,443,443,0
 2016,2,82,China PR,CHN,427,423,4
 2016,2,83,Norway,NOR,422,422,0
@@ -3660,7 +3660,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2016,1,59,Australia,AUS,555,563,-8
 2016,1,59,Congo DR,COD,555,589,-34
 2016,1,61,Mali,MLI,546,554,-8
-2016,1,62,Cape Verde Islands,CPV,545,620,-75
+2016,1,62,Cabo Verde Islands,CPV,545,620,-75
 2016,1,63,Guinea,GUI,544,573,-29
 2016,1,64,Slovenia,SVN,542,567,-25
 2016,1,65,Saudi Arabia,KSA,540,545,-5
@@ -3732,7 +3732,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2016,1,131,Madagascar,MAD,273,317,-44
 2016,1,132,Ethiopia,ETH,270,288,-18
 2016,1,133,Malawi,MWI,269,320,-51
-2016,1,134,Curacao,CUW,261,191,70
+2016,1,134,Curaçao,CUW,261,191,70
 2016,1,135,Philippines,PHI,256,299,-43
 2016,1,136,Faroe Islands,FRO,254,383,-129
 2016,1,137,Azerbaijan,AZE,253,252,1
@@ -3846,7 +3846,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2015,2,36,Iceland,ISL,761,792,-31
 2015,2,37,Costa Rica,CRC,759,671,88
 2015,2,38,Albania,ALB,746,723,23
-2015,2,39,Cape Verde Islands,CPV,745,762,-17
+2015,2,39,Cabo Verde Islands,CPV,745,762,-17
 2015,2,40,Tunisia,TUN,711,668,43
 2015,2,41,Greece,GRE,706,718,-12
 2015,2,42,Denmark,DEN,685,743,-58
@@ -3958,7 +3958,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2015,2,148,Tajikistan,TJK,196,159,37
 2015,2,149,Singapore,SGP,195,179,16
 2015,2,150,Afghanistan,AFG,194,168,26
-2015,2,151,Curacao,CUW,192,182,10
+2015,2,151,Curaçao,CUW,192,182,10
 2015,2,151,New Zealand,NZL,192,163,29
 2015,2,153,Lesotho,LES,185,193,-8
 2015,2,154,Dominican Republic,DOM,180,187,-7
@@ -4068,7 +4068,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2015,1,49,Slovenia,SVN,626,653,-27
 2015,1,50,Japan,JPN,621,623,-2
 2015,1,51,Israel,ISR,620,725,-105
-2015,1,52,Cape Verde Islands,CPV,608,746,-138
+2015,1,52,Cabo Verde Islands,CPV,608,746,-138
 2015,1,52,Republic of Ireland,IRL,608,581,27
 2015,1,52,Korea Republic,KOR,608,587,21
 2015,1,55,Egypt,EGY,606,596,10
@@ -4165,7 +4165,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2015,1,146,Luxembourg,LUX,187,201,-14
 2015,1,147,Liechtenstein,LIE,182,207,-25
 2015,1,148,Tajikistan,TJK,181,173,8
-2015,1,149,Curacao,CUW,174,159,15
+2015,1,149,Curaçao,CUW,174,159,15
 2015,1,150,Puerto Rico,PUR,169,114,55
 2015,1,150,Singapore,SGP,169,136,33
 2015,1,152,Turkmenistan,TKM,167,99,68
@@ -4264,7 +4264,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2014,2,37,Ghana,GHA,714,714,0
 2014,2,38,Serbia,SRB,713,617,96
 2014,2,39,Guinea,GUI,706,698,8
-2014,2,40,Cape Verde Islands,CPV,693,693,0
+2014,2,40,Cabo Verde Islands,CPV,693,693,0
 2014,2,41,Poland,POL,680,684,-4
 2014,2,42,Cameroon,CMR,665,664,1
 2014,2,43,Nigeria,NGA,656,656,0
@@ -4382,7 +4382,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2014,2,155,Grenada,GRN,137,147,-10
 2014,2,156,Hong Kong,HKG,134,120,14
 2014,2,157,Singapore,SGP,131,123,8
-2014,2,158,Curacao,CUW,125,127,-2
+2014,2,158,Curaçao,CUW,125,127,-2
 2014,2,159,Indonesia,IDN,123,126,-3
 2014,2,160,Laos,LAO,121,120,1
 2014,2,161,Guam,GUM,119,105,14
@@ -4508,7 +4508,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2014,1,72,Bulgaria,BUL,425,425,0
 2014,1,73,Azerbaijan,AZE,410,396,14
 2014,1,74,FYR Macedonia,MKD,406,419,-13
-2014,1,75,Cape Verde Islands,CPV,401,674,-273
+2014,1,75,Cabo Verde Islands,CPV,401,674,-273
 2014,1,76,Australia,AUS,397,526,-129
 2014,1,77,Zambia,ZAM,396,441,-45
 2014,1,78,Saudi Arabia,KSA,384,381,3
@@ -4616,7 +4616,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2014,1,180,Yemen,YEM,70,61,9
 2014,1,181,Turks and Caicos Islands,TCA,66,0,66
 2014,1,182,Seychelles,SEY,64,66,-2
-2014,1,183,Curacao,CUW,63,65,-2
+2014,1,183,Curaçao,CUW,63,65,-2
 2014,1,184,Faroe Islands,FRO,61,89,-28
 2014,1,185,Mauritius,MRI,56,57,-1
 2014,1,186,South Sudan,SSD,43,47,-4
@@ -4680,7 +4680,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2013,2,36,Venezuela,VEN,711,711,0
 2013,2,37,Nigeria,NGA,710,710,0
 2013,2,38,Panama,PAN,705,705,0
-2013,2,39,Cape Verde Islands,CPV,698,698,0
+2013,2,39,Cabo Verde Islands,CPV,698,698,0
 2013,2,39,Peru,PER,698,698,0
 2013,2,41,Egypt,EGY,695,699,-4
 2013,2,42,Honduras,HON,690,688,2
@@ -4819,7 +4819,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2013,2,175,Bermuda,BER,83,83,0
 2013,2,176,Seychelles,SEY,67,15,52
 2013,2,177,Mauritius,MRI,66,62,4
-2013,2,178,Curacao,CUW,65,67,-2
+2013,2,178,Curaçao,CUW,65,67,-2
 2013,2,179,Yemen,YEM,54,64,-10
 2013,2,180,Vanuatu,VAN,53,53,0
 2013,2,181,Mongolia,MNG,49,49,0
@@ -4899,7 +4899,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2013,1,46,Wales,WAL,630,638,-8
 2013,1,47,Tunisia,TUN,627,652,-25
 2013,1,48,Paraguay,PAR,622,640,-18
-2013,1,49,Cape Verde Islands,CPV,620,486,134
+2013,1,49,Cabo Verde Islands,CPV,620,486,134
 2013,1,50,Scotland,SCO,610,481,129
 2013,1,51,Panama,PAN,601,649,-48
 2013,1,52,IR Iran,IRN,596,506,90
@@ -5028,7 +5028,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2013,1,175,Chinese Taipei,TPE,77,90,-13
 2013,1,176,Guam,GUM,70,65,5
 2013,1,177,Montserrat,MSR,66,66,0
-2013,1,178,Curacao,CUW,65,65,0
+2013,1,178,Curaçao,CUW,65,65,0
 2013,1,179,Swaziland,SWZ,60,65,-5
 2013,1,180,Guinea-Bissau,GNB,58,62,-4
 2013,1,181,Bahamas,BAH,53,66,-13
@@ -5127,7 +5127,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2012,2,66,Costa Rica,CRC,515,509,6
 2012,2,67,Uzbekistan,UZB,513,490,23
 2012,2,68,Trinidad and Tobago,TRI,507,446,61
-2012,2,69,Cape Verde Islands,CPV,498,511,-13
+2012,2,69,Cabo Verde Islands,CPV,498,511,-13
 2012,2,70,Austria,AUT,492,492,0
 2012,2,71,Togo,TOG,491,479,12
 2012,2,72,Scotland,SCO,490,488,2
@@ -5235,7 +5235,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2012,2,174,Bahamas,BAH,66,66,0
 2012,2,174,Guinea-Bissau,GNB,66,98,-32
 2012,2,174,Montserrat,MSR,66,66,0
-2012,2,177,Curacao,CUW,65,134,-69
+2012,2,177,Curaçao,CUW,65,134,-69
 2012,2,178,Swaziland,SWZ,61,56,5
 2012,2,179,Madagascar,MAD,55,106,-51
 2012,2,179,Mongolia,MNG,55,55,0
@@ -5346,7 +5346,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2012,1,75,Guinea,GUI,448,502,-54
 2012,1,77,Belarus,BLR,447,497,-50
 2012,1,78,Benin,BEN,446,489,-43
-2012,1,79,Cape Verde Islands,CPV,441,457,-16
+2012,1,79,Cabo Verde Islands,CPV,441,457,-16
 2012,1,80,Trinidad and Tobago,TRI,432,425,7
 2012,1,81,Iraq,IRQ,428,477,-49
 2012,1,82,Israel,ISR,427,427,0
@@ -5425,7 +5425,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2012,1,155,Faroe Islands,FRO,149,279,-130
 2012,1,155,Nepal,NEP,149,164,-15
 2012,1,157,Malaysia,MAS,139,151,-12
-2012,1,158,Curacao,CUW,138,137,1
+2012,1,158,Curaçao,CUW,138,137,1
 2012,1,158,Singapore,SGP,138,143,-5
 2012,1,160,Hong Kong,HKG,132,142,-10
 2012,1,161,Fiji,FIJ,130,133,-3
@@ -5532,7 +5532,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2011,2,55,Ukraine,UKR,568,568,0
 2011,2,56,Romania,ROU,562,562,0
 2011,2,57,Estonia,EST,555,543,12
-2011,2,58,Cape Verde Islands,CPV,549,544,5
+2011,2,58,Cabo Verde Islands,CPV,549,544,5
 2011,2,59,Tunisia,TUN,537,537,0
 2011,2,60,Sierra Leone,SLE,526,521,5
 2011,2,61,Morocco,MAR,524,524,0
@@ -5625,7 +5625,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2011,2,148,Malaysia,MAS,154,140,14
 2011,2,149,Samoa,SAM,149,0,149
 2011,2,150,Equatorial Guinea,EQG,148,148,0
-2011,2,151,Curacao,CUW,146,154,-8
+2011,2,151,Curaçao,CUW,146,154,-8
 2011,2,151,Yemen,YEM,146,153,-7
 2011,2,153,Nepal,NEP,144,177,-33
 2011,2,154,Bahamas,BAH,141,141,0
@@ -5764,7 +5764,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2011,1,79,Estonia,EST,399,399,0
 2011,1,80,Cyprus,CYP,398,398,0
 2011,1,80,Bolivia,BOL,398,356,42
-2011,1,82,Cape Verde Islands,CPV,397,397,0
+2011,1,82,Cabo Verde Islands,CPV,397,397,0
 2011,1,83,Uzbekistan,UZB,390,383,7
 2011,1,84,Latvia,LVA,388,388,0
 2011,1,85,Moldova,MDA,383,383,0
@@ -5838,7 +5838,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2011,1,153,Hong Kong,HKG,133,141,-8
 2011,1,154,Equatorial Guinea,EQG,131,131,0
 2011,1,155,Fiji,FIJ,129,103,26
-2011,1,156,Curacao,CUW,128,128,0
+2011,1,156,Curaçao,CUW,128,128,0
 2011,1,157,Chad,CHA,127,123,4
 2011,1,158,Lebanon,LIB,119,55,64
 2011,1,159,Maldives,MDV,116,127,-11
@@ -5963,7 +5963,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2010,2,72,Libya,LBY,451,414,37
 2010,2,73,Poland,POL,449,452,-3
 2010,2,73,Georgia,GEO,449,422,27
-2010,2,75,Cape Verde Islands,CPV,444,408,36
+2010,2,75,Cabo Verde Islands,CPV,444,408,36
 2010,2,76,FYR Macedonia,MKD,441,439,2
 2010,2,76,Zambia,ZAM,441,457,-16
 2010,2,78,Latvia,LVA,440,446,-6
@@ -6203,7 +6203,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2010,1,105,Thailand,THA,273,276,-3
 2010,1,106,Azerbaijan,AZE,266,259,7
 2010,1,107,Congo,CGO,263,308,-45
-2010,1,108,Cape Verde Islands,CPV,261,241,20
+2010,1,108,Cabo Verde Islands,CPV,261,241,20
 2010,1,109,Yemen,YEM,248,248,0
 2010,1,110,Zimbabwe,ZIM,238,258,-20
 2010,1,111,Georgia,GEO,237,217,20
@@ -6398,7 +6398,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2009,2,94,Moldova,MDA,338,338,0
 2009,2,95,Angola,ANG,337,337,0
 2009,2,96,Albania,ALB,336,327,9
-2009,2,97,Cape Verde Islands,CPV,331,316,15
+2009,2,97,Cabo Verde Islands,CPV,331,316,15
 2009,2,98,Kenya,KEN,327,292,35
 2009,2,99,Malawi,MWI,326,337,-11
 2009,2,100,Armenia,ARM,321,323,-2
@@ -6621,7 +6621,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2009,1,110,Suriname,SUR,309,309,0
 2009,1,111,Estonia,EST,308,308,0
 2009,1,112,Grenada,GRN,305,379,-74
-2009,1,113,Cape Verde Islands,CPV,296,296,0
+2009,1,113,Cabo Verde Islands,CPV,296,296,0
 2009,1,114,Haiti,HAI,295,248,47
 2009,1,115,Kuwait,KUW,292,288,4
 2009,1,116,Thailand,THA,287,290,-3
@@ -6821,7 +6821,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2008,2,104,Malawi,MWI,342,346,-4
 2008,2,105,Syria,SYR,337,344,-7
 2008,2,106,Fiji,FIJ,333,200,133
-2008,2,107,Cape Verde Islands,CPV,332,303,29
+2008,2,107,Cabo Verde Islands,CPV,332,303,29
 2008,2,108,Georgia,GEO,328,363,-35
 2008,2,109,Guatemala,GUA,327,321,6
 2008,2,110,United Arab Emirates,UAE,320,299,21
@@ -7007,7 +7007,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2008,1,82,Zimbabwe,ZIM,421,367,54
 2008,1,83,China PR,CHN,407,384,23
 2008,1,84,Equatorial Guinea,EQG,403,422,-19
-2008,1,85,Cape Verde Islands,CPV,400,283,117
+2008,1,85,Cabo Verde Islands,CPV,400,283,117
 2008,1,86,Oman,OMA,397,380,17
 2008,1,87,Rwanda,RWA,396,297,99
 2008,1,87,Suriname,SUR,396,173,223
@@ -7240,7 +7240,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2007,2,108,Bolivia,BOL,313,313,0
 2007,2,109,Burundi,BDI,307,277,30
 2007,2,110,Kenya,KEN,306,338,-32
-2007,2,111,Cape Verde Islands,CPV,301,288,13
+2007,2,111,Cabo Verde Islands,CPV,301,288,13
 2007,2,112,Kazakhstan,KAZ,284,297,-13
 2007,2,113,Burkina Faso,BFA,283,283,0
 2007,2,114,Namibia,NAM,282,282,0
@@ -7406,7 +7406,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2007,1,65,Hungary,HUN,461,461,0
 2007,1,65,Trinidad and Tobago,TRI,461,433,28
 2007,1,67,Albania,ALB,454,454,0
-2007,1,68,Cape Verde Islands,CPV,448,421,27
+2007,1,68,Cabo Verde Islands,CPV,448,421,27
 2007,1,68,Bolivia,BOL,448,356,92
 2007,1,70,Belgium,BEL,444,444,0
 2007,1,71,Belarus,BLR,443,443,0
@@ -7624,7 +7624,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2006,2,73,Cyprus,CYP,428,428,0
 2006,2,76,Zimbabwe,ZIM,424,424,0
 2006,2,77,Slovenia,SVN,414,414,0
-2006,2,78,Cape Verde Islands,CPV,413,413,0
+2006,2,78,Cabo Verde Islands,CPV,413,413,0
 2006,2,78,Kuwait,KUW,413,410,3
 2006,2,80,Algeria,ALG,412,412,0
 2006,2,81,Panama,PAN,411,435,-24
@@ -7855,7 +7855,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2006,1,100,Uganda,UGA,276,468,-192
 2006,1,101,Kuwait,KUW,272,538,-266
 2006,1,102,Ethiopia,ETH,270,392,-122
-2006,1,103,Cape Verde Islands,CPV,259,360,-101
+2006,1,103,Cabo Verde Islands,CPV,259,360,-101
 2006,1,104,Rwanda,RWA,256,476,-220
 2006,1,105,Botswana,BOT,255,454,-199
 2006,1,106,Armenia,ARM,247,416,-169
@@ -8075,7 +8075,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2005,2,116,Barbados,BRB,386,387,-1
 2005,2,117,Turkmenistan,TKM,385,401,-16
 2005,2,118,Hong Kong,HKG,383,390,-7
-2005,2,119,Cape Verde Islands,CPV,371,372,-1
+2005,2,119,Cabo Verde Islands,CPV,371,372,-1
 2005,2,119,Malta,MLT,371,371,0
 2005,2,121,Vietnam,VIE,368,399,-31
 2005,2,121,New Zealand,NZL,368,388,-20
@@ -8284,7 +8284,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2005,1,120,Barbados,BRB,390,391,-1
 2005,1,120,Hong Kong,HKG,390,390,0
 2005,1,122,St. Kitts and Nevis,SKN,389,397,-8
-2005,1,123,Cape Verde Islands,CPV,379,403,-24
+2005,1,123,Cabo Verde Islands,CPV,379,403,-24
 2005,1,124,Yemen,YEM,378,381,-3
 2005,1,125,Benin,BEN,368,375,-7
 2005,1,126,Ethiopia,ETH,362,364,-2
@@ -8493,7 +8493,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2004,2,126,Mozambique,MOZ,379,381,-2
 2004,2,126,Palestine,PLE,379,383,-4
 2004,2,126,Eswatini,SWZ,379,384,-5
-2004,2,129,Cape Verde Islands,CPV,377,383,-6
+2004,2,129,Cabo Verde Islands,CPV,377,383,-6
 2004,2,130,Solomon Islands,SOL,375,369,6
 2004,2,131,Faroe Islands,FRO,367,368,-1
 2004,2,132,India,IND,365,332,33
@@ -8702,7 +8702,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2004,1,131,Fiji,FIJ,362,359,3
 2004,1,132,Malta,MLT,361,361,0
 2004,1,132,Palestine,PLE,361,360,1
-2004,1,134,Cape Verde Islands,CPV,347,300,47
+2004,1,134,Cabo Verde Islands,CPV,347,300,47
 2004,1,134,Yemen,YEM,347,348,-1
 2004,1,136,Tajikistan,TJK,344,345,-1
 2004,1,136,Faroe Islands,FRO,344,350,-6
@@ -8914,7 +8914,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2003,2,140,Myanmar,MYA,313,321,-8
 2003,2,141,Maldives,MDV,312,264,48
 2003,2,142,Hong Kong,HKG,310,331,-21
-2003,2,143,Cape Verde Islands,CPV,309,324,-15
+2003,2,143,Cabo Verde Islands,CPV,309,324,-15
 2003,2,144,Namibia,NAM,308,317,-9
 2003,2,145,Burundi,BDI,297,306,-9
 2003,2,146,Sierra Leone,SLE,295,298,-3
@@ -9119,7 +9119,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2003,1,142,Andorra,AND,298,299,-1
 2003,1,143,Grenada,GRN,294,302,-8
 2003,1,144,Turkmenistan,TKM,292,299,-7
-2003,1,145,Cape Verde Islands,CPV,288,289,-1
+2003,1,145,Cabo Verde Islands,CPV,288,289,-1
 2003,1,146,Bangladesh,BAN,284,285,-1
 2003,1,147,Liechtenstein,LIE,280,280,0
 2003,1,148,Suriname,SUR,277,278,-1
@@ -9330,7 +9330,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2002,2,150,Palestine,PLE,226,231,-5
 2002,2,152,Maldives,MDV,224,229,-5
 2002,2,152,Tanzania,TAN,224,228,-4
-2002,2,154,Cape Verde Islands,CPV,221,209,12
+2002,2,154,Cabo Verde Islands,CPV,221,209,12
 2002,2,155,Antigua and Barbuda,ATG,215,197,18
 2002,2,156,Vanuatu,VAN,212,212,0
 2002,2,157,Eritrea,ERI,205,179,26
@@ -9538,7 +9538,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2002,1,157,Antigua and Barbuda,ATG,205,211,-6
 2002,1,158,Belize,BLZ,202,211,-9
 2002,1,159,San Marino,SMR,200,204,-4
-2002,1,160,Cape Verde Islands,CPV,197,202,-5
+2002,1,160,Cabo Verde Islands,CPV,197,202,-5
 2002,1,161,Samoa,SAM,195,195,0
 2002,1,162,British Virgin Islands,VGB,193,197,-4
 2002,1,163,Dominican Republic,DOM,192,198,-6
@@ -9738,7 +9738,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2001,2,156,Nepal,NEP,220,220,0
 2001,2,157,Antigua and Barbuda,ATG,217,222,-5
 2001,2,158,San Marino,SMR,211,210,1
-2001,2,159,Cape Verde Islands,CPV,208,208,0
+2001,2,159,Cabo Verde Islands,CPV,208,208,0
 2001,2,160,Dominican Republic,DOM,204,205,-1
 2001,2,160,Dominica,DMA,204,207,-3
 2001,2,162,Laos,LAO,203,203,0
@@ -9943,7 +9943,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2001,1,159,San Marino,SMR,213,213,0
 2001,1,160,Bermuda,BER,209,211,-2
 2001,1,161,Cayman Islands,CAY,207,207,0
-2001,1,162,Cape Verde Islands,CPV,206,208,-2
+2001,1,162,Cabo Verde Islands,CPV,206,208,-2
 2001,1,162,Dominican Republic,DOM,206,206,0
 2001,1,164,British Virgin Islands,VGB,202,202,0
 2001,1,165,Kyrgyz Republic,KGZ,196,195,1
@@ -10138,7 +10138,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2000,2,153,Bermuda,BER,219,218,1
 2000,2,154,Maldives,MDV,216,216,0
 2000,2,154,Gambia,GAM,216,215,1
-2000,2,156,Cape Verde Islands,CPV,210,205,5
+2000,2,156,Cabo Verde Islands,CPV,210,205,5
 2000,2,157,Dominican Republic,DOM,207,206,1
 2000,2,158,Eritrea,ERI,196,172,24
 2000,2,159,Cayman Islands,CAY,194,194,0
@@ -10343,7 +10343,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 2000,1,156,Laos,LAO,189,189,0
 2000,1,157,Mauritania,MTN,187,188,-1
 2000,1,158,Dominica,DMA,184,185,-1
-2000,1,158,Cape Verde Islands,CPV,184,182,2
+2000,1,158,Cabo Verde Islands,CPV,184,182,2
 2000,1,160,Cayman Islands,CAY,182,182,0
 2000,1,161,Chinese Taipei,TPE,171,170,1
 2000,1,162,Suriname,SUR,169,168,1
@@ -10560,7 +10560,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1999,2,173,Chinese Taipei,TPE,91,94,-3
 1999,2,174,Central African Republic,CTA,87,36,51
 1999,2,175,Macau,MAC,85,88,-3
-1999,2,176,Cape Verde Islands,CPV,80,84,-4
+1999,2,176,Cabo Verde Islands,CPV,80,84,-4
 1999,2,176,Tonga,TGA,80,83,-3
 1999,2,178,Pakistan,PAK,79,78,1
 1999,2,178,Samoa,SAM,79,82,-3
@@ -10754,7 +10754,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1999,1,166,Guinea-Bissau,GNB,114,117,-3
 1999,1,167,Guyana,GUY,107,107,0
 1999,1,168,Chinese Taipei,TPE,101,103,-2
-1999,1,169,Cape Verde Islands,CPV,96,96,0
+1999,1,169,Cabo Verde Islands,CPV,96,96,0
 1999,1,170,Macau,MAC,95,97,-2
 1999,1,171,Eritrea,ERI,94,55,39
 1999,1,172,Tonga,TGA,92,92,0
@@ -10951,7 +10951,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1998,2,162,Samoa,SAM,8,8,0
 1998,2,162,Guinea-Bissau,GNB,8,9,-1
 1998,2,162,Maldives,MDV,8,6,2
-1998,2,162,Cape Verde Islands,CPV,8,9,-1
+1998,2,162,Cabo Verde Islands,CPV,8,9,-1
 1998,2,162,Pakistan,PAK,8,8,0
 1998,2,168,Chinese Taipei,TPE,7,7,0
 1998,2,168,Rwanda,RWA,7,8,-1
@@ -11145,7 +11145,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1998,1,159,Maldives,MDV,8,8,0
 1998,1,161,Chinese Taipei,TPE,7,7,0
 1998,1,161,Liechtenstein,LIE,7,7,0
-1998,1,161,Cape Verde Islands,CPV,7,7,0
+1998,1,161,Cabo Verde Islands,CPV,7,7,0
 1998,1,161,Macau,MAC,7,7,0
 1998,1,165,Nepal,NEP,6,7,-1
 1998,1,165,Philippines,PHI,6,4,2
@@ -11342,7 +11342,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1997,2,166,Guyana,GUY,6,6,0
 1997,2,166,Puerto Rico,PUR,6,6,0
 1997,2,166,Cambodia,CAM,6,6,0
-1997,2,166,Cape Verde Islands,CPV,6,6,0
+1997,2,166,Cabo Verde Islands,CPV,6,6,0
 1997,2,171,Rwanda,RWA,5,5,0
 1997,2,171,San Marino,SMR,5,5,0
 1997,2,171,Tonga,TGA,5,5,0
@@ -11528,7 +11528,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1997,1,161,Liechtenstein,LIE,7,7,0
 1997,1,161,Papua New Guinea,PNG,7,7,0
 1997,1,164,Guyana,GUY,6,6,0
-1997,1,164,Cape Verde Islands,CPV,6,6,0
+1997,1,164,Cabo Verde Islands,CPV,6,6,0
 1997,1,164,San Marino,SMR,6,6,0
 1997,1,164,Rwanda,RWA,6,6,0
 1997,1,164,Bermuda,BER,6,6,0
@@ -11707,7 +11707,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1996,2,151,Bosnia and Herzegovina,BIH,8,8,0
 1996,2,151,Guyana,GUY,8,8,0
 1996,2,153,Liechtenstein,LIE,7,7,0
-1996,2,153,Cape Verde Islands,CPV,7,8,-1
+1996,2,153,Cabo Verde Islands,CPV,7,8,-1
 1996,2,153,Kazakhstan,KAZ,7,6,1
 1996,2,153,Fiji,FIJ,7,7,0
 1996,2,153,Tahiti,TAH,7,7,0
@@ -11889,7 +11889,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1996,1,142,Cayman Islands,CAY,11,11,0
 1996,1,145,Puerto Rico,PUR,10,11,-1
 1996,1,146,Nepal,NEP,9,9,0
-1996,1,146,Cape Verde Islands,CPV,9,9,0
+1996,1,146,Cabo Verde Islands,CPV,9,9,0
 1996,1,148,Fiji,FIJ,8,8,0
 1996,1,148,Guyana,GUY,8,5,3
 1996,1,148,Tahiti,TAH,8,6,2
@@ -12066,7 +12066,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1995,2,137,Azerbaijan,AZE,9,9,0
 1995,2,137,Grenada,GRN,9,9,0
 1995,2,137,Jordan,JOR,9,9,0
-1995,2,137,Cape Verde Islands,CPV,9,1,8
+1995,2,137,Cabo Verde Islands,CPV,9,1,8
 1995,2,137,Guatemala,GUA,9,3,6
 1995,2,145,Burundi,BDI,8,9,-1
 1995,2,145,Nepal,NEP,8,8,0
@@ -12270,7 +12270,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1995,1,156,Tajikistan,TJK,3,3,0
 1995,1,163,Laos,LAO,2,2,0
 1995,1,163,Maldives,MDV,2,2,0
-1995,1,163,Cape Verde Islands,CPV,2,2,0
+1995,1,163,Cabo Verde Islands,CPV,2,2,0
 1995,1,166,Solomon Islands,SOL,1,1,0
 1995,1,166,Aruba,ARU,1,0,1
 1995,1,166,Kyrgyz Republic,KGZ,1,1,0
@@ -12443,7 +12443,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1994,2,155,Pakistan,PAK,3,3,0
 1994,2,155,Somalia,SOM,3,0,3
 1994,2,159,Laos,LAO,2,2,0
-1994,2,159,Cape Verde Islands,CPV,2,2,0
+1994,2,159,Cabo Verde Islands,CPV,2,2,0
 1994,2,159,Maldives,MDV,2,2,0
 1994,2,159,Solomon Islands,SOL,2,2,0
 1994,2,163,Dominican Republic,DOM,1,1,0
@@ -12614,7 +12614,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1994,1,147,Mauritania,MTN,3,3,0
 1994,1,150,Liechtenstein,LIE,2,2,0
 1994,1,150,Maldives,MDV,2,2,0
-1994,1,150,Cape Verde Islands,CPV,2,2,0
+1994,1,150,Cabo Verde Islands,CPV,2,2,0
 1994,1,150,Laos,LAO,2,2,0
 1994,1,150,Solomon Islands,SOL,2,2,0
 1994,1,155,Dominican Republic,DOM,1,1,0
@@ -12779,7 +12779,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1993,2,142,Mauritania,MTN,3,2,1
 1993,2,142,Haiti,HAI,3,3,0
 1993,2,145,Laos,LAO,2,2,0
-1993,2,145,Cape Verde Islands,CPV,2,2,0
+1993,2,145,Cabo Verde Islands,CPV,2,2,0
 1993,2,145,Maldives,MDV,2,0,2
 1993,2,145,Solomon Islands,SOL,2,2,0
 1993,2,145,Slovakia,SVK,2,2,0
@@ -12942,7 +12942,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1993,1,139,Libya,LBY,2,2,0
 1993,1,139,Laos,LAO,2,0,2
 1993,1,139,Mauritania,MTN,2,3,-1
-1993,1,139,Cape Verde Islands,CPV,2,3,-1
+1993,1,139,Cabo Verde Islands,CPV,2,3,-1
 1993,1,139,Solomon Islands,SOL,2,2,0
 1993,1,139,Brunei Darussalam,BRU,2,2,0
 1993,1,139,Lesotho,LES,2,2,0
@@ -13099,7 +13099,7 @@ date,semester,rank,team,acronym,total.points,previous.points,diff.points
 1992,2,130,Estonia,EST,3,0,3
 1992,2,130,Bangladesh,BAN,3,0,3
 1992,2,130,Mauritania,MTN,3,0,3
-1992,2,130,Cape Verde Islands,CPV,3,0,3
+1992,2,130,Cabo Verde Islands,CPV,3,0,3
 1992,2,135,Solomon Islands,SOL,2,0,2
 1992,2,135,Libya,LBY,2,0,2
 1992,2,135,Botswana,BOT,2,0,2

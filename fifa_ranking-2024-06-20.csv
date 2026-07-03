@@ -39032,7 +39032,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 148,Liechtenstein,LIE,116,116,0,UEFA,2011-01-12
 149,Myanmar,MYA,109,109,0,AFC,2011-01-12
 150,Netherlands Antilles,ANT,107,107,-1,CONCACAF,2011-01-12
-150,Curacao,CUW,107,109,1,CONCACAF,2011-01-12
+150,Curaçao,CUW,107,109,1,CONCACAF,2011-01-12
 140,Chad,CHA,147,147,-1,CAF,2011-01-12
 151,Fiji,FIJ,103,103,-1,OFC,2011-01-12
 153,Philippines,PHI,97,108,3,AFC,2011-01-12
@@ -39240,7 +39240,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 147,Liechtenstein,LIE,116,116,-1,UEFA,2011-02-02
 148,St Vincent and the Grenadines,VIN,110,132,4,CONCACAF,2011-02-02
 149,Myanmar,MYA,108,109,0,AFC,2011-02-02
-150,Curacao,CUW,107,107,0,CONCACAF,2011-02-02
+150,Curaçao,CUW,107,107,0,CONCACAF,2011-02-02
 144,Burundi,BDI,134,147,4,CAF,2011-02-02
 135,Faroe Islands,FRO,171,171,1,UEFA,2011-02-02
 134,Vietnam,VIE,172,167,-2,AFC,2011-02-02
@@ -39394,7 +39394,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 143,Liechtenstein,LIE,134,116,-4,UEFA,2011-03-09
 144,Burundi,BDI,133,134,0,CAF,2011-03-09
 145,India,IND,126,126,0,AFC,2011-03-09
-146,Curacao,CUW,115,107,-4,CONCACAF,2011-03-09
+146,Curaçao,CUW,115,107,-4,CONCACAF,2011-03-09
 147,Chinese Taipei,TPE,114,93,-7,AFC,2011-03-09
 148,Tajikistan,TJK,113,142,7,AFC,2011-03-09
 148,Equatorial Guinea,EQG,113,72,-17,CAF,2011-03-09
@@ -39773,7 +39773,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 136,Faroe Islands,FRO,168,171,1,UEFA,2011-04-13
 153,St Vincent and the Grenadines,VIN,116,113,5,CONCACAF,2011-04-13
 153,Liechtenstein,LIE,116,134,10,UEFA,2011-04-13
-152,Curacao,CUW,121,115,6,CONCACAF,2011-04-13
+152,Curaçao,CUW,121,115,6,CONCACAF,2011-04-13
 151,New Caledonia,NCL,123,97,-2,OFC,2011-04-13
 148,Burundi,BDI,127,133,4,CAF,2011-04-13
 148,Nepal,NEP,127,54,-24,AFC,2011-04-13
@@ -39982,7 +39982,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 155,Fiji,FIJ,103,103,-1,OFC,2011-05-18
 159,Eswatini,SWZ,89,89,1,CAF,2011-05-18
 153,Liechtenstein,LIE,116,116,0,UEFA,2011-05-18
-152,Curacao,CUW,121,121,0,CONCACAF,2011-05-18
+152,Curaçao,CUW,121,121,0,CONCACAF,2011-05-18
 151,New Caledonia,NCL,123,123,0,OFC,2011-05-18
 149,Burundi,BDI,127,127,1,CAF,2011-05-18
 149,Chad,CHA,127,127,1,CAF,2011-05-18
@@ -40159,7 +40159,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 109,Syria,SYR,292,297,5,AFC,2011-06-29
 108,Suriname,SUR,296,267,-4,CONCACAF,2011-06-29
 107,Oman,OMA,300,295,1,AFC,2011-06-29
-150,Curacao,CUW,128,121,-2,CONCACAF,2011-06-29
+150,Curaçao,CUW,128,121,-2,CONCACAF,2011-06-29
 106,Mozambique,MOZ,327,358,12,CAF,2011-06-29
 102,Cuba,CUB,330,416,21,CONCACAF,2011-06-29
 102,Angola,ANG,330,296,-3,CAF,2011-06-29
@@ -40364,7 +40364,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 19,Sweden,SWE,884,884,0,UEFA,2011-07-27
 177,Laos,LAO,76,58,3,AFC,2011-07-27
 18,Russia,RUS,914,914,1,UEFA,2011-07-27
-157,Curacao,CUW,128,128,7,CONCACAF,2011-07-27
+157,Curaçao,CUW,128,128,7,CONCACAF,2011-07-27
 156,Fiji,FIJ,129,103,0,OFC,2011-07-27
 155,Equatorial Guinea,EQG,131,131,6,CAF,2011-07-27
 154,Hong Kong,HKG,133,141,8,AFC,2011-07-27
@@ -40496,7 +40496,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 162,Philippines,PHI,105,109,0,AFC,2011-08-24
 162,Vanuatu,VAN,105,93,-7,OFC,2011-08-24
 165,New Caledonia,NCL,104,104,1,OFC,2011-08-24
-166,Curacao,CUW,103,128,9,CONCACAF,2011-08-24
+166,Curaçao,CUW,103,128,9,CONCACAF,2011-08-24
 167,Malta,MLT,102,83,-6,UEFA,2011-08-24
 168,Myanmar,MYA,99,99,3,AFC,2011-08-24
 169,Chinese Taipei,TPE,97,96,3,AFC,2011-08-24
@@ -40734,7 +40734,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 182,Laos,LAO,71,71,2,AFC,2011-09-21
 178,Solomon Islands,SOL,75,79,1,OFC,2011-09-21
 178,Kyrgyz Republic,KGZ,75,79,1,AFC,2011-09-21
-178,Curacao,CUW,75,103,12,CONCACAF,2011-09-21
+178,Curaçao,CUW,75,103,12,CONCACAF,2011-09-21
 178,Comoros,COM,75,68,-4,CAF,2011-09-21
 177,Seychelles,SEY,82,85,2,CAF,2011-09-21
 176,Sri Lanka,SRI,83,86,2,AFC,2011-09-21
@@ -40954,7 +40954,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 184,Afghanistan,AFG,69,70,1,AFC,2011-10-19
 174,Vanuatu,VAN,88,88,1,OFC,2011-10-19
 172,Aruba,ARU,92,92,2,CONCACAF,2011-10-19
-171,Curacao,CUW,99,75,-7,CONCACAF,2011-10-19
+171,Curaçao,CUW,99,75,-7,CONCACAF,2011-10-19
 170,Myanmar,MYA,101,98,2,AFC,2011-10-19
 169,US Virgin Islands,VIR,104,144,18,CONCACAF,2011-10-19
 167,Mongolia,MNG,106,106,4,AFC,2011-10-19
@@ -41218,7 +41218,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 124,Benin,BEN,257,260,5,CAF,2011-11-23
 106,Puerto Rico,PUR,309,199,-31,CONCACAF,2011-11-23
 126,Cyprus,CYP,253,259,6,UEFA,2011-11-23
-149,Curacao,CUW,154,99,-22,CONCACAF,2011-11-23
+149,Curaçao,CUW,154,99,-22,CONCACAF,2011-11-23
 125,Congo DR,COD,254,223,-8,CAF,2011-11-23
 148,Lesotho,LES,160,114,-14,CAF,2011-11-23
 147,Turkmenistan,TKM,164,172,2,AFC,2011-11-23
@@ -41278,7 +41278,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 146,Turkmenistan,TKM,164,164,-1,AFC,2011-12-21
 147,Lesotho,LES,160,160,-1,CAF,2011-12-21
 148,Malaysia,MAS,154,140,-7,AFC,2011-12-21
-151,Curacao,CUW,146,154,2,CONCACAF,2011-12-21
+151,Curaçao,CUW,146,154,2,CONCACAF,2011-12-21
 170,Cambodia,CAM,101,103,1,AFC,2011-12-21
 197,Macau,MAC,26,26,4,AFC,2011-12-21
 172,Myanmar,MYA,99,103,3,AFC,2011-12-21
@@ -41463,7 +41463,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 149,Yemen,YEM,153,146,-2,AFC,2012-01-18
 155,Bahamas,BAH,141,141,1,CONCACAF,2012-01-18
 151,Equatorial Guinea,EQG,147,148,1,CAF,2012-01-18
-152,Curacao,CUW,146,146,1,CONCACAF,2012-01-18
+152,Curaçao,CUW,146,146,1,CONCACAF,2012-01-18
 153,Lesotho,LES,144,160,6,CAF,2012-01-18
 153,Nepal,NEP,144,144,0,AFC,2012-01-18
 156,Malta,MLT,140,140,0,UEFA,2012-01-18
@@ -41846,7 +41846,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 122,Syria,SYR,270,275,5,AFC,2012-02-15
 154,Bahamas,BAH,141,141,-1,CONCACAF,2012-02-15
 133,Grenada,GRN,240,241,1,CONCACAF,2012-02-15
-153,Curacao,CUW,142,146,1,CONCACAF,2012-02-15
+153,Curaçao,CUW,142,146,1,CONCACAF,2012-02-15
 152,Nepal,NEP,144,144,-1,AFC,2012-02-15
 151,Samoa,SAM,149,149,1,OFC,2012-02-15
 150,Malaysia,MAS,153,157,2,AFC,2012-02-15
@@ -42013,7 +42013,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 157,Fiji,FIJ,133,133,-2,OFC,2012-03-07
 156,Philippines,PHI,136,139,0,AFC,2012-03-07
 155,Bahamas,BAH,141,141,1,CONCACAF,2012-03-07
-154,Curacao,CUW,142,142,1,CONCACAF,2012-03-07
+154,Curaçao,CUW,142,142,1,CONCACAF,2012-03-07
 153,Nepal,NEP,144,144,1,AFC,2012-03-07
 152,Malaysia,MAS,148,153,2,AFC,2012-03-07
 150,Singapore,SGP,149,155,2,AFC,2012-03-07
@@ -42163,7 +42163,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 156,Malaysia,MAS,148,148,4,AFC,2012-04-11
 156,Yemen,YEM,148,152,8,AFC,2012-04-11
 158,Singapore,SGP,145,149,8,AFC,2012-04-11
-159,Curacao,CUW,138,142,5,CONCACAF,2012-04-11
+159,Curaçao,CUW,138,142,5,CONCACAF,2012-04-11
 160,Fiji,FIJ,133,133,3,OFC,2012-04-11
 161,Bahamas,BAH,132,141,6,CONCACAF,2012-04-11
 161,Hong Kong,HKG,132,132,3,AFC,2012-04-11
@@ -42409,7 +42409,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 161,Hong Kong,HKG,132,132,0,AFC,2012-05-09
 161,Bahamas,BAH,132,132,0,CONCACAF,2012-05-09
 160,Fiji,FIJ,133,133,0,OFC,2012-05-09
-159,Curacao,CUW,138,138,0,CONCACAF,2012-05-09
+159,Curaçao,CUW,138,138,0,CONCACAF,2012-05-09
 169,Guinea-Bissau,GNB,116,116,-1,CAF,2012-05-09
 182,US Virgin Islands,VIR,78,78,-1,CONCACAF,2012-05-09
 183,Solomon Islands,SOL,75,75,-1,OFC,2012-05-09
@@ -42659,7 +42659,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 202,Brunei Darussalam,BRU,5,4,1,AFC,2012-06-06
 184,Sri Lanka,SRI,74,74,0,AFC,2012-06-06
 161,Fiji,FIJ,133,133,1,OFC,2012-06-06
-160,Curacao,CUW,137,138,1,CONCACAF,2012-06-06
+160,Curaçao,CUW,137,138,1,CONCACAF,2012-06-06
 159,Yemen,YEM,141,148,2,AFC,2012-06-06
 158,Hong Kong,HKG,142,132,-3,AFC,2012-06-06
 157,Singapore,SGP,143,145,-1,AFC,2012-06-06
@@ -42780,7 +42780,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 132,Suriname,SUR,240,255,4,CONCACAF,2012-07-04
 132,Syria,SYR,240,263,6,AFC,2012-07-04
 157,Malaysia,MAS,139,151,3,AFC,2012-07-04
-158,Curacao,CUW,138,137,-2,CONCACAF,2012-07-04
+158,Curaçao,CUW,138,137,-2,CONCACAF,2012-07-04
 158,Singapore,SGP,138,143,1,AFC,2012-07-04
 160,Hong Kong,HKG,132,142,2,AFC,2012-07-04
 161,Fiji,FIJ,130,133,0,OFC,2012-07-04
@@ -42990,7 +42990,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 162,Nepal,NEP,125,149,7,AFC,2012-08-08
 162,Singapore,SGP,125,138,4,AFC,2012-08-08
 164,Afghanistan,AFG,122,122,2,AFC,2012-08-08
-165,Curacao,CUW,114,138,7,CONCACAF,2012-08-08
+165,Curaçao,CUW,114,138,7,CONCACAF,2012-08-08
 165,Madagascar,MAD,114,115,-2,CAF,2012-08-08
 167,Lesotho,LES,109,119,1,CAF,2012-08-08
 168,India,IND,106,121,5,AFC,2012-08-08
@@ -43196,7 +43196,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 185,Eritrea,ERI,45,45,-2,CAF,2012-09-05
 183,Myanmar,MYA,52,50,-1,AFC,2012-09-05
 159,Maldives,MDV,133,126,-2,AFC,2012-09-05
-161,Curacao,CUW,129,114,-4,CONCACAF,2012-09-05
+161,Curaçao,CUW,129,114,-4,CONCACAF,2012-09-05
 161,Singapore,SGP,129,125,-1,AFC,2012-09-05
 163,Madagascar,MAD,127,114,-2,CAF,2012-09-05
 164,Samoa,SAM,124,93,-9,OFC,2012-09-05
@@ -43523,7 +43523,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 149,Palestine,PLE,170,161,-2,AFC,2012-10-03
 147,Philippines,PHI,178,167,-3,AFC,2012-10-03
 147,Kazakhstan,KAZ,178,196,5,UEFA,2012-10-03
-151,Curacao,CUW,166,129,-10,CONCACAF,2012-10-03
+151,Curaçao,CUW,166,129,-10,CONCACAF,2012-10-03
 145,Moldova,MDA,187,204,4,UEFA,2012-10-03
 146,Cuba,CUB,179,175,-1,CONCACAF,2012-10-03
 137,Niger,NIG,218,267,11,CAF,2012-10-03
@@ -43617,7 +43617,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 158,Lesotho,LES,140,135,0,CAF,2012-11-07
 159,Faroe Islands,FRO,138,135,1,UEFA,2012-11-07
 160,Maldives,MDV,135,133,0,AFC,2012-11-07
-161,Curacao,CUW,134,166,10,CONCACAF,2012-11-07
+161,Curaçao,CUW,134,166,10,CONCACAF,2012-11-07
 162,Yemen,YEM,131,141,5,AFC,2012-11-07
 163,Malaysia,MAS,127,126,1,AFC,2012-11-07
 163,Singapore,SGP,127,126,1,AFC,2012-11-07
@@ -43855,7 +43855,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 179,Mongolia,MNG,55,55,-7,AFC,2012-12-19
 179,Madagascar,MAD,55,106,6,CAF,2012-12-19
 178,Eswatini,SWZ,61,56,-7,CAF,2012-12-19
-177,Curacao,CUW,65,134,16,CONCACAF,2012-12-19
+177,Curaçao,CUW,65,134,16,CONCACAF,2012-12-19
 174,Montserrat,MSR,66,66,-9,CONCACAF,2012-12-19
 174,Guinea-Bissau,GNB,66,98,-1,CAF,2012-12-19
 174,Bahamas,BAH,66,66,-9,CONCACAF,2012-12-19
@@ -44050,7 +44050,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 174,Bahamas,BAH,66,66,0,CONCACAF,2013-01-17
 174,Guinea-Bissau,GNB,66,66,0,CAF,2013-01-17
 174,Montserrat,MSR,66,66,0,CONCACAF,2013-01-17
-177,Curacao,CUW,65,65,0,CONCACAF,2013-01-17
+177,Curaçao,CUW,65,65,0,CONCACAF,2013-01-17
 178,Eswatini,SWZ,61,61,0,CAF,2013-01-17
 179,Madagascar,MAD,55,55,0,CAF,2013-01-17
 179,Mongolia,MNG,55,55,0,AFC,2013-01-17
@@ -44294,7 +44294,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 163,Indonesia,IDN,117,145,7,AFC,2013-02-14
 152,Aruba,ARU,163,163,1,CONCACAF,2013-02-14
 176,Guinea-Bissau,GNB,66,66,2,CAF,2013-02-14
-179,Curacao,CUW,65,65,2,CONCACAF,2013-02-14
+179,Curaçao,CUW,65,65,2,CONCACAF,2013-02-14
 200,Kyrgyz Republic,KGZ,20,20,2,AFC,2013-02-14
 197,Seychelles,SEY,24,24,2,CAF,2013-02-14
 197,Macau,MAC,24,23,0,AFC,2013-02-14
@@ -44450,7 +44450,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 185,Cambodia,CAM,58,53,2,AFC,2013-03-14
 157,Bangladesh,BAN,143,90,-12,AFC,2013-03-14
 183,Eswatini,SWZ,63,63,3,CAF,2013-03-14
-182,Curacao,CUW,65,65,3,CONCACAF,2013-03-14
+182,Curaçao,CUW,65,65,3,CONCACAF,2013-03-14
 159,Hong Kong,HKG,141,143,3,AFC,2013-03-14
 160,Bermuda,BER,139,139,3,CONCACAF,2013-03-14
 161,Maldives,MDV,136,130,2,AFC,2013-03-14
@@ -44665,7 +44665,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 180,Bahamas,BAH,66,66,1,CONCACAF,2013-04-11
 180,Guinea-Bissau,GNB,66,63,-3,CAF,2013-04-11
 180,Montserrat,MSR,66,66,1,CONCACAF,2013-04-11
-183,Curacao,CUW,65,65,1,CONCACAF,2013-04-11
+183,Curaçao,CUW,65,65,1,CONCACAF,2013-04-11
 183,Guam,GUM,65,66,4,AFC,2013-04-11
 175,Mauritania,MTN,94,94,3,CAF,2013-04-11
 119,Northern Ireland,NIR,285,367,22,UEFA,2013-04-11
@@ -44920,7 +44920,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 168,Pakistan,PAK,118,118,0,AFC,2013-05-09
 158,Myanmar,MYA,149,155,3,AFC,2013-05-09
 182,Guam,GUM,65,65,-1,AFC,2013-05-09
-182,Curacao,CUW,65,65,-1,CONCACAF,2013-05-09
+182,Curaçao,CUW,65,65,-1,CONCACAF,2013-05-09
 206,Anguilla,AIA,4,4,0,CONCACAF,2013-05-09
 205,Andorra,AND,9,9,0,UEFA,2013-05-09
 204,Djibouti,DJI,11,11,0,CAF,2013-05-09
@@ -45136,7 +45136,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 173,Yemen,YEM,96,100,0,AFC,2013-06-06
 172,Sri Lanka,SRI,99,99,-2,AFC,2013-06-06
 171,Nepal,NEP,108,108,0,AFC,2013-06-06
-178,Curacao,CUW,65,65,-4,CONCACAF,2013-06-06
+178,Curaçao,CUW,65,65,-4,CONCACAF,2013-06-06
 170,Indonesia,IDN,116,117,0,AFC,2013-06-06
 192,Comoros,COM,41,41,0,CAF,2013-06-06
 195,British Virgin Islands,VGB,34,34,0,CONCACAF,2013-06-06
@@ -45332,7 +45332,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Bahamas,BAH,53,66,5,CONCACAF,2013-07-04
 180,Guinea-Bissau,GNB,58,62,-1,CAF,2013-07-04
 179,Eswatini,SWZ,60,65,1,CAF,2013-07-04
-178,Curacao,CUW,65,65,0,CONCACAF,2013-07-04
+178,Curaçao,CUW,65,65,0,CONCACAF,2013-07-04
 177,Montserrat,MSR,66,66,1,CONCACAF,2013-07-04
 176,Guam,GUM,70,65,-2,AFC,2013-07-04
 175,Chinese Taipei,TPE,77,90,0,AFC,2013-07-04
@@ -45517,7 +45517,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 178,Vanuatu,VAN,67,43,-11,OFC,2013-08-08
 179,Montserrat,MSR,66,66,2,CONCACAF,2013-08-08
 180,Eswatini,SWZ,62,60,1,CAF,2013-08-08
-181,Curacao,CUW,61,65,3,CONCACAF,2013-08-08
+181,Curaçao,CUW,61,65,3,CONCACAF,2013-08-08
 182,Guinea-Bissau,GNB,58,58,2,CAF,2013-08-08
 183,Brunei Darussalam,BRU,52,52,1,AFC,2013-08-08
 183,Timor-Leste,TLS,52,52,1,AFC,2013-08-08
@@ -45746,7 +45746,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 177,Samoa,SAM,62,46,-11,OFC,2013-09-12
 175,Guam,GUM,70,71,-2,AFC,2013-09-12
 175,Chinese Taipei,TPE,70,75,-1,AFC,2013-09-12
-174,Curacao,CUW,72,61,-7,CONCACAF,2013-09-12
+174,Curaçao,CUW,72,61,-7,CONCACAF,2013-09-12
 173,Yemen,YEM,80,83,0,AFC,2013-09-12
 172,Laos,LAO,84,84,0,AFC,2013-09-12
 170,Indonesia,IDN,102,99,1,AFC,2013-09-12
@@ -45962,7 +45962,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 162,Indonesia,IDN,120,102,-8,AFC,2013-10-17
 161,Bermuda,BER,127,139,4,CONCACAF,2013-10-17
 160,Malaysia,MAS,137,128,-1,AFC,2013-10-17
-170,Curacao,CUW,88,72,-4,CONCACAF,2013-10-17
+170,Curaçao,CUW,88,72,-4,CONCACAF,2013-10-17
 183,Mongolia,MNG,49,49,-2,AFC,2013-10-17
 185,Fiji,FIJ,47,47,-2,OFC,2013-10-17
 186,American Samoa,ASA,43,43,-2,OFC,2013-10-17
@@ -46161,7 +46161,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 178,Mauritius,MRI,62,62,0,CAF,2013-11-28
 177,Yemen,YEM,64,72,0,AFC,2013-11-28
 175,Dominica,DMA,67,89,6,CONCACAF,2013-11-28
-175,Curacao,CUW,67,88,5,CONCACAF,2013-11-28
+175,Curaçao,CUW,67,88,5,CONCACAF,2013-11-28
 174,Chinese Taipei,TPE,81,79,-2,AFC,2013-11-28
 173,Aruba,ARU,82,82,0,CONCACAF,2013-11-28
 172,Bermuda,BER,83,127,11,CONCACAF,2013-11-28
@@ -46361,7 +46361,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Mongolia,MNG,49,49,1,AFC,2013-12-19
 180,Vanuatu,VAN,53,53,1,OFC,2013-12-19
 179,Yemen,YEM,54,64,2,AFC,2013-12-19
-178,Curacao,CUW,65,67,3,CONCACAF,2013-12-19
+178,Curaçao,CUW,65,67,3,CONCACAF,2013-12-19
 177,Mauritius,MRI,66,62,-1,CAF,2013-12-19
 176,Seychelles,SEY,67,15,-24,CAF,2013-12-19
 175,Bermuda,BER,83,83,3,CONCACAF,2013-12-19
@@ -46569,7 +46569,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Mongolia,MNG,49,49,0,AFC,2014-01-16
 180,Yemen,YEM,50,54,1,AFC,2014-01-16
 179,Vanuatu,VAN,53,53,-1,OFC,2014-01-16
-178,Curacao,CUW,65,65,0,CONCACAF,2014-01-16
+178,Curaçao,CUW,65,65,0,CONCACAF,2014-01-16
 177,Mauritius,MRI,66,66,0,CAF,2014-01-16
 176,Seychelles,SEY,67,67,0,CAF,2014-01-16
 175,Bermuda,BER,83,83,0,CONCACAF,2014-01-16
@@ -46754,7 +46754,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 161,Sao Tome and Principe,STP,122,126,1,CAF,2014-02-13
 162,Chad,CHA,121,116,-2,CAF,2014-02-13
 163,Maldives,MDV,120,120,0,AFC,2014-02-13
-178,Curacao,CUW,65,65,0,CONCACAF,2014-02-13
+178,Curaçao,CUW,65,65,0,CONCACAF,2014-02-13
 164,Bangladesh,BAN,116,116,0,AFC,2014-02-13
 166,Dominica,DMA,103,95,-1,CONCACAF,2014-02-13
 167,Nicaragua,NCA,102,137,8,CONCACAF,2014-02-13
@@ -46988,7 +46988,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Fiji,FIJ,47,47,0,OFC,2014-03-13
 180,Vanuatu,VAN,55,55,1,OFC,2014-03-13
 179,Eswatini,SWZ,63,40,-5,CAF,2014-03-13
-178,Curacao,CUW,65,65,0,CONCACAF,2014-03-13
+178,Curaçao,CUW,65,65,0,CONCACAF,2014-03-13
 176,Seychelles,SEY,66,67,0,CAF,2014-03-13
 176,Mauritius,MRI,66,66,-1,CAF,2014-03-13
 173,Sri Lanka,SRI,68,90,2,AFC,2014-03-13
@@ -47193,7 +47193,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Vanuatu,VAN,55,55,1,OFC,2014-04-10
 180,Yemen,YEM,60,40,-5,AFC,2014-04-10
 179,Eswatini,SWZ,64,63,0,CAF,2014-04-10
-178,Curacao,CUW,65,65,0,CONCACAF,2014-04-10
+178,Curaçao,CUW,65,65,0,CONCACAF,2014-04-10
 177,Seychelles,SEY,66,66,1,CAF,2014-04-10
 176,Mauritius,MRI,67,66,0,CAF,2014-04-10
 174,Myanmar,MYA,73,68,1,AFC,2014-04-10
@@ -47391,7 +47391,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 173,Laos,LAO,73,73,-1,AFC,2014-05-08
 173,Myanmar,MYA,73,73,-1,AFC,2014-05-08
 176,Seychelles,SEY,66,66,-1,CAF,2014-05-08
-177,Curacao,CUW,65,65,-1,CONCACAF,2014-05-08
+177,Curaçao,CUW,65,65,-1,CONCACAF,2014-05-08
 178,Eswatini,SWZ,64,64,-1,CAF,2014-05-08
 179,Yemen,YEM,63,60,-1,AFC,2014-05-08
 180,Mauritius,MRI,55,67,4,CAF,2014-05-08
@@ -47584,7 +47584,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 196,Papua New Guinea,PNG,21,21,1,OFC,2014-06-05
 184,Mauritius,MRI,57,55,4,CAF,2014-06-05
 183,Yemen,YEM,61,63,4,AFC,2014-06-05
-182,Curacao,CUW,65,65,5,CONCACAF,2014-06-05
+182,Curaçao,CUW,65,65,5,CONCACAF,2014-06-05
 159,Myanmar,MYA,133,73,-14,AFC,2014-06-05
 160,St Kitts and Nevis,SKN,124,124,7,CONCACAF,2014-06-05
 161,Tahiti,TAH,122,116,4,OFC,2014-06-05
@@ -47813,7 +47813,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 167,Liechtenstein,LIE,93,118,5,UEFA,2014-07-17
 180,Yemen,YEM,70,61,-3,AFC,2014-07-17
 182,Seychelles,SEY,64,66,1,CAF,2014-07-17
-183,Curacao,CUW,63,65,1,CONCACAF,2014-07-17
+183,Curaçao,CUW,63,65,1,CONCACAF,2014-07-17
 184,Faroe Islands,FRO,61,89,13,UEFA,2014-07-17
 185,Mauritius,MRI,56,57,1,CAF,2014-07-17
 186,South Sudan,SSD,43,47,1,CAF,2014-07-17
@@ -48024,7 +48024,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 179,Chinese Taipei,TPE,70,71,1,AFC,2014-08-14
 180,Seychelles,SEY,68,64,-2,CAF,2014-08-14
 181,Turks and Caicos Islands,TCA,66,66,0,CONCACAF,2014-08-14
-182,Curacao,CUW,63,63,-1,CONCACAF,2014-08-14
+182,Curaçao,CUW,63,63,-1,CONCACAF,2014-08-14
 183,Faroe Islands,FRO,61,61,-1,UEFA,2014-08-14
 159,St Kitts and Nevis,SKN,124,124,1,CONCACAF,2014-08-14
 106,Malawi,MWI,295,234,-15,CAF,2014-08-14
@@ -48151,7 +48151,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 145,Maldives,MDV,183,174,0,AFC,2014-09-18
 146,Madagascar,MAD,180,179,3,CAF,2014-09-18
 147,Suriname,SUR,175,213,16,CONCACAF,2014-09-18
-148,Curacao,CUW,164,63,-34,CONCACAF,2014-09-18
+148,Curaçao,CUW,164,63,-34,CONCACAF,2014-09-18
 149,Singapore,SGP,163,140,-3,AFC,2014-09-18
 150,Korea DPR,PRK,160,167,4,AFC,2014-09-18
 151,Kyrgyz Republic,KGZ,158,176,7,AFC,2014-09-18
@@ -48355,7 +48355,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 144,Central African Republic,CTA,178,209,7,CAF,2014-10-23
 155,Liechtenstein,LIE,136,81,-17,UEFA,2014-10-23
 146,Barbados,BRB,172,112,-15,CONCACAF,2014-10-23
-147,Curacao,CUW,171,164,-1,CONCACAF,2014-10-23
+147,Curaçao,CUW,171,164,-1,CONCACAF,2014-10-23
 148,Korea DPR,PRK,168,160,-2,AFC,2014-10-23
 149,Suriname,SUR,167,175,2,CONCACAF,2014-10-23
 150,Kyrgyz Republic,KGZ,158,158,-1,AFC,2014-10-23
@@ -48705,7 +48705,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 159,Laos,LAO,120,141,5,AFC,2014-11-27
 158,Singapore,SGP,123,115,-3,AFC,2014-11-27
 157,Indonesia,IDN,126,129,0,AFC,2014-11-27
-156,Curacao,CUW,127,171,9,CONCACAF,2014-11-27
+156,Curaçao,CUW,127,171,9,CONCACAF,2014-11-27
 130,Liechtenstein,LIE,219,136,-25,UEFA,2014-11-27
 129,Luxembourg,LUX,230,233,3,UEFA,2014-11-27
 128,Philippines,PHI,231,229,-1,AFC,2014-11-27
@@ -48912,7 +48912,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 186,Macau,MAC,49,49,0,AFC,2014-12-18
 186,Nepal,NEP,49,58,7,AFC,2014-12-18
 185,Timor-Leste,TLS,51,51,0,AFC,2014-12-18
-158,Curacao,CUW,125,127,2,CONCACAF,2014-12-18
+158,Curaçao,CUW,125,127,2,CONCACAF,2014-12-18
 157,Singapore,SGP,131,123,-1,AFC,2014-12-18
 156,Hong Kong,HKG,134,120,-3,AFC,2014-12-18
 155,Grenada,GRN,137,147,3,CONCACAF,2014-12-18
@@ -49057,7 +49057,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 155,Grenada,GRN,137,137,0,CONCACAF,2015-01-08
 156,Hong Kong,HKG,134,134,0,AFC,2015-01-08
 157,Singapore,SGP,133,131,0,AFC,2015-01-08
-158,Curacao,CUW,125,125,0,CONCACAF,2015-01-08
+158,Curaçao,CUW,125,125,0,CONCACAF,2015-01-08
 159,Indonesia,IDN,122,123,0,AFC,2015-01-08
 160,Laos,LAO,121,121,0,AFC,2015-01-08
 161,Guam,GUM,119,119,0,AFC,2015-01-08
@@ -49234,7 +49234,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 132,Aruba,ARU,221,221,3,CONCACAF,2015-02-12
 132,Vietnam,VIE,221,218,-1,AFC,2015-02-12
 135,Maldives,MDV,220,220,4,AFC,2015-02-12
-160,Curacao,CUW,125,125,2,CONCACAF,2015-02-12
+160,Curaçao,CUW,125,125,2,CONCACAF,2015-02-12
 161,Laos,LAO,123,121,1,AFC,2015-02-12
 162,Guam,GUM,119,119,1,AFC,2015-02-12
 189,South Sudan,SSD,43,43,0,CAF,2015-02-12
@@ -49440,7 +49440,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 119,St Vincent and the Grenadines,VIN,260,300,9,CONCACAF,2015-03-12
 107,Dominican Republic,DOM,310,310,-1,CONCACAF,2015-03-12
 157,Hong Kong,HKG,127,127,-2,AFC,2015-03-12
-159,Curacao,CUW,125,125,-1,CONCACAF,2015-03-12
+159,Curaçao,CUW,125,125,-1,CONCACAF,2015-03-12
 185,Timor-Leste,TLS,51,51,-2,AFC,2015-03-12
 187,Macau,MAC,45,50,-1,AFC,2015-03-12
 188,Chinese Taipei,TPE,43,53,4,AFC,2015-03-12
@@ -49600,7 +49600,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 159,Indonesia,IDN,131,129,3,AFC,2015-04-09
 144,New Zealand,NZL,163,211,10,OFC,2015-04-09
 147,India,IND,161,74,-26,AFC,2015-04-09
-148,Curacao,CUW,159,125,-11,CONCACAF,2015-04-09
+148,Curaçao,CUW,159,125,-11,CONCACAF,2015-04-09
 149,Malta,MLT,158,168,4,UEFA,2015-04-09
 150,Madagascar,MAD,156,163,3,CAF,2015-04-09
 151,Chad,CHA,155,155,3,CAF,2015-04-09
@@ -49955,7 +49955,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 181,Nepal,NEP,70,71,0,AFC,2015-05-07
 150,Madagascar,MAD,156,156,0,CAF,2015-05-07
 192,Solomon Islands,SOL,46,46,0,OFC,2015-05-07
-148,Curacao,CUW,159,159,0,CONCACAF,2015-05-07
+148,Curaçao,CUW,159,159,0,CONCACAF,2015-05-07
 116,Azerbaijan,AZE,264,264,1,UEFA,2015-05-07
 115,Canada,CAN,277,277,1,CONCACAF,2015-05-07
 114,Namibia,NAM,279,279,1,CAF,2015-05-07
@@ -50199,7 +50199,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 119,Zimbabwe,ZIM,238,235,-4,CAF,2015-06-04
 146,Korea DPR,PRK,151,139,-10,AFC,2015-06-04
 145,Malta,MLT,154,158,-4,UEFA,2015-06-04
-144,Curacao,CUW,159,159,-4,CONCACAF,2015-06-04
+144,Curaçao,CUW,159,159,-4,CONCACAF,2015-06-04
 143,Myanmar,MYA,160,133,-15,AFC,2015-06-04
 141,Central African Republic,CTA,161,163,-3,CAF,2015-06-04
 139,Tajikistan,TJK,173,173,-4,AFC,2015-06-04
@@ -50260,7 +50260,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 146,Luxembourg,LUX,187,201,15,UEFA,2015-07-09
 147,Liechtenstein,LIE,182,207,18,UEFA,2015-07-09
 148,Tajikistan,TJK,181,173,9,AFC,2015-07-09
-149,Curacao,CUW,174,159,5,CONCACAF,2015-07-09
+149,Curaçao,CUW,174,159,5,CONCACAF,2015-07-09
 150,Singapore,SGP,169,136,-4,AFC,2015-07-09
 152,Turkmenistan,TKM,167,99,-21,AFC,2015-07-09
 153,Georgia,GEO,165,173,14,UEFA,2015-07-09
@@ -50568,7 +50568,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 151,Hong Kong,HKG,168,163,-3,AFC,2015-08-06
 150,Puerto Rico,PUR,169,169,0,CONCACAF,2015-08-06
 149,Turkmenistan,TKM,172,167,-3,AFC,2015-08-06
-148,Curacao,CUW,173,174,-1,CONCACAF,2015-08-06
+148,Curaçao,CUW,173,174,-1,CONCACAF,2015-08-06
 147,Liechtenstein,LIE,182,182,0,UEFA,2015-08-06
 146,Guam,GUM,185,163,-8,AFC,2015-08-06
 145,Luxembourg,LUX,187,187,-1,UEFA,2015-08-06
@@ -50833,7 +50833,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 151,Hong Kong,HKG,169,168,0,AFC,2015-09-03
 150,Liechtenstein,LIE,171,182,3,UEFA,2015-09-03
 149,Turkmenistan,TKM,172,172,0,AFC,2015-09-03
-148,Curacao,CUW,178,173,0,CONCACAF,2015-09-03
+148,Curaçao,CUW,178,173,0,CONCACAF,2015-09-03
 147,Georgia,GEO,180,165,-7,UEFA,2015-09-03
 146,Guam,GUM,182,185,0,AFC,2015-09-03
 145,Kazakhstan,KAZ,184,193,4,UEFA,2015-09-03
@@ -50960,7 +50960,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 148,New Zealand,NZL,188,209,12,OFC,2015-10-01
 149,Vietnam,VIE,187,166,-3,AFC,2015-10-01
 150,Guam,GUM,183,182,4,AFC,2015-10-01
-152,Curacao,CUW,181,178,4,CONCACAF,2015-10-01
+152,Curaçao,CUW,181,178,4,CONCACAF,2015-10-01
 153,Hong Kong,HKG,180,169,2,AFC,2015-10-01
 154,Barbados,BRB,175,186,10,CONCACAF,2015-10-01
 155,Turkmenistan,TKM,172,172,6,AFC,2015-10-01
@@ -51243,7 +51243,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 127,Armenia,ARM,271,377,36,UEFA,2015-11-05
 152,Guyana,GUY,179,210,15,CONCACAF,2015-11-05
 151,Bermuda,BER,181,209,13,CONCACAF,2015-11-05
-150,Curacao,CUW,182,181,-2,CONCACAF,2015-11-05
+150,Curaçao,CUW,182,181,-2,CONCACAF,2015-11-05
 125,Mozambique,MOZ,274,327,18,CAF,2015-11-05
 149,Dominican Republic,DOM,187,290,30,CONCACAF,2015-11-05
 147,Lesotho,LES,193,201,7,CAF,2015-11-05
@@ -51402,7 +51402,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 154,Dominican Republic,DOM,180,187,5,CONCACAF,2015-12-03
 153,Lesotho,LES,185,193,6,CAF,2015-12-03
 151,New Zealand,NZL,192,163,-8,OFC,2015-12-03
-151,Curacao,CUW,192,182,1,CONCACAF,2015-12-03
+151,Curaçao,CUW,192,182,1,CONCACAF,2015-12-03
 150,Afghanistan,AFG,194,168,-6,AFC,2015-12-03
 149,Singapore,SGP,195,179,-3,AFC,2015-12-03
 148,Tajikistan,TJK,196,159,-12,AFC,2015-12-03
@@ -51495,7 +51495,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 147,Guinea-Bissau,GNB,207,207,1,CAF,2016-01-07
 148,Singapore,SGP,196,195,-1,AFC,2016-01-07
 148,Tajikistan,TJK,196,196,0,AFC,2016-01-07
-150,Curacao,CUW,192,192,-1,CONCACAF,2016-01-07
+150,Curaçao,CUW,192,192,-1,CONCACAF,2016-01-07
 150,New Zealand,NZL,192,192,-1,OFC,2016-01-07
 152,Lesotho,LES,186,185,-1,CAF,2016-01-07
 153,Afghanistan,AFG,183,194,3,AFC,2016-01-07
@@ -51839,7 +51839,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 145,St Lucia,LCA,216,216,1,CONCACAF,2016-02-04
 144,St Vincent and the Grenadines,VIN,221,221,1,CONCACAF,2016-02-04
 143,Barbados,BRB,227,214,-2,CONCACAF,2016-02-04
-150,Curacao,CUW,192,192,0,CONCACAF,2016-02-04
+150,Curaçao,CUW,192,192,0,CONCACAF,2016-02-04
 142,Luxembourg,LUX,237,237,0,UEFA,2016-02-04
 140,Lebanon,LBN,246,245,0,AFC,2016-02-04
 139,Cuba,CUB,250,259,3,CONCACAF,2016-02-04
@@ -52062,7 +52062,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 143,Barbados,BRB,227,227,0,CONCACAF,2016-03-03
 142,Luxembourg,LUX,233,237,0,UEFA,2016-03-03
 141,St Vincent and the Grenadines,VIN,243,221,-3,CONCACAF,2016-03-03
-151,Curacao,CUW,192,192,1,CONCACAF,2016-03-03
+151,Curaçao,CUW,192,192,1,CONCACAF,2016-03-03
 140,South Sudan,SSD,246,246,0,CAF,2016-03-03
 138,North Macedonia,MKD,257,257,0,UEFA,2016-03-03
 135,Cuba,CUB,263,250,-4,CONCACAF,2016-03-03
@@ -52133,7 +52133,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 148,Lesotho,LES,202,186,-5,CAF,2016-04-07
 150,Sao Tome and Principe,STP,197,117,-24,CAF,2016-04-07
 151,Dominican Republic,DOM,193,150,-8,CONCACAF,2016-04-07
-152,Curacao,CUW,191,192,1,CONCACAF,2016-04-07
+152,Curaçao,CUW,191,192,1,CONCACAF,2016-04-07
 152,Puerto Rico,PUR,191,127,-18,CONCACAF,2016-04-07
 154,Mauritius,MRI,188,120,-18,CAF,2016-04-07
 155,South Sudan,SSD,182,246,15,CAF,2016-04-07
@@ -52339,7 +52339,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 133,Eswatini,SWZ,269,269,-1,CAF,2016-05-05
 135,Namibia,NAM,267,267,-1,CAF,2016-05-05
 136,Aruba,ARU,259,259,-1,CONCACAF,2016-05-05
-152,Curacao,CUW,191,191,0,CONCACAF,2016-05-05
+152,Curaçao,CUW,191,191,0,CONCACAF,2016-05-05
 137,Madagascar,MAD,257,257,-1,CAF,2016-05-05
 139,St Lucia,LCA,247,238,-1,CONCACAF,2016-05-05
 140,Kuwait,KUW,244,284,14,AFC,2016-05-05
@@ -52563,7 +52563,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 150,Grenada,GRN,203,179,-7,CONCACAF,2016-06-02
 152,Sao Tome and Principe,STP,197,197,2,CAF,2016-06-02
 153,Dominican Republic,DOM,193,193,2,CONCACAF,2016-06-02
-154,Curacao,CUW,191,191,2,CONCACAF,2016-06-02
+154,Curaçao,CUW,191,191,2,CONCACAF,2016-06-02
 155,Lesotho,LES,185,202,7,CAF,2016-06-02
 156,Afghanistan,AFG,184,211,9,AFC,2016-06-02
 157,South Sudan,SSD,174,182,2,CAF,2016-06-02
@@ -52889,7 +52889,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 166,Moldova,MDA,151,165,7,UEFA,2016-07-14
 168,American Samoa,ASA,128,128,0,OFC,2016-07-14
 120,Turkmenistan,TKM,312,264,-14,AFC,2016-07-14
-134,Curacao,CUW,261,191,-20,CONCACAF,2016-07-14
+134,Curaçao,CUW,261,191,-20,CONCACAF,2016-07-14
 100,Canada,CAN,350,363,7,CONCACAF,2016-07-14
 92,Liberia,LBR,370,292,-31,CAF,2016-07-14
 90,Sierra Leone,SLE,376,317,-18,CAF,2016-07-14
@@ -53001,7 +53001,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 110,Zimbabwe,ZIM,338,332,-2,CAF,2016-08-11
 110,Bolivia,BOL,338,338,1,CONMEBOL,2016-08-11
 132,Angola,ANG,259,253,-5,CAF,2016-08-11
-131,Curacao,CUW,261,261,-3,CONCACAF,2016-08-11
+131,Curaçao,CUW,261,261,-3,CONCACAF,2016-08-11
 130,Ethiopia,ETH,270,270,-2,CAF,2016-08-11
 129,Madagascar,MAD,273,273,-2,CAF,2016-08-11
 128,Guyana,GUY,280,280,-1,CONCACAF,2016-08-11
@@ -53173,7 +53173,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 190,American Samoa,ASA,64,128,20,OFC,2016-09-15
 1,Argentina,ARG,1646,1585,0,CONMEBOL,2016-09-15
 122,Niger,NIG,299,257,-11,CAF,2016-09-15
-122,Curacao,CUW,299,261,-9,CONCACAF,2016-09-15
+122,Curaçao,CUW,299,261,-9,CONCACAF,2016-09-15
 125,Philippines,PHI,297,256,-9,AFC,2016-09-15
 126,Ethiopia,ETH,284,270,-4,CAF,2016-09-15
 126,Bahrain,BHR,284,289,0,AFC,2016-09-15
@@ -53527,7 +53527,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 95,Mozambique,MOZ,359,381,6,CAF,2016-10-20
 75,Jamaica,JAM,464,430,-5,CONCACAF,2016-10-20
 76,Libya,LBY,461,466,0,CAF,2016-10-20
-77,Curacao,CUW,452,299,-45,CONCACAF,2016-10-20
+77,Curaçao,CUW,452,299,-45,CONCACAF,2016-10-20
 77,Belarus,BLR,452,573,20,UEFA,2016-10-20
 79,Israel,ISR,450,346,-19,UEFA,2016-10-20
 80,Bolivia,BOL,444,468,5,CONMEBOL,2016-10-20
@@ -53599,7 +53599,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 65,Cameroon,CMR,534,567,6,CAF,2016-11-24
 64,United Arab Emirates,UAE,537,513,-6,AFC,2016-11-24
 88,Qatar,QAT,409,385,-3,AFC,2016-11-24
-75,Curacao,CUW,467,452,-2,CONCACAF,2016-11-24
+75,Curaçao,CUW,467,452,-2,CONCACAF,2016-11-24
 89,Kenya,KEN,397,416,4,CAF,2016-11-24
 102,Zimbabwe,ZIM,334,323,-8,CAF,2016-11-24
 91,Zambia,ZAM,374,374,-3,CAF,2016-11-24
@@ -53991,14 +53991,14 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,Haiti,HAI,489,505,4,CONCACAF,2016-12-22
 74,Belarus,BLR,470,470,0,UEFA,2016-12-22
 75,Honduras,HON,467,461,-1,CONCACAF,2016-12-22
-75,Curacao,CUW,467,467,0,CONCACAF,2016-12-22
+75,Curaçao,CUW,467,467,0,CONCACAF,2016-12-22
 77,Jamaica,JAM,463,461,1,CONCACAF,2016-12-22
 79,Guatemala,GUA,450,450,0,CONCACAF,2016-12-22
 186,Seychelles,SEY,78,79,0,CAF,2016-12-22
 51,Albania,ALB,618,618,2,UEFA,2017-01-12
 205,Anguilla,AIA,0,0,0,CONCACAF,2017-01-12
 77,Jamaica,JAM,463,463,0,CONCACAF,2017-01-12
-75,Curacao,CUW,467,467,0,CONCACAF,2017-01-12
+75,Curaçao,CUW,467,467,0,CONCACAF,2017-01-12
 75,Honduras,HON,467,467,0,CONCACAF,2017-01-12
 74,Belarus,BLR,470,470,0,UEFA,2017-01-12
 73,Uganda,UGA,476,490,1,CAF,2017-01-12
@@ -54393,7 +54393,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 76,Congo,CGO,455,504,5,CAF,2017-02-09
 75,Uganda,UGA,464,476,2,CAF,2017-02-09
 80,Guinea-Bissau,GNB,434,515,12,CAF,2017-02-09
-73,Curacao,CUW,467,467,-2,CONCACAF,2017-02-09
+73,Curaçao,CUW,467,467,-2,CONCACAF,2017-02-09
 52,Japan,JPN,629,644,6,AFC,2017-02-09
 53,Panama,PAN,624,582,-5,CONCACAF,2017-02-09
 54,Australia,AUS,621,649,10,AFC,2017-02-09
@@ -54592,7 +54592,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,St Kitts and Nevis,SKN,469,443,-4,CONCACAF,2017-03-09
 95,Syria,SYR,355,357,2,AFC,2017-03-09
 94,Kazakhstan,KAZ,357,352,-2,UEFA,2017-03-09
-74,Curacao,CUW,467,467,1,CONCACAF,2017-03-09
+74,Curaçao,CUW,467,467,1,CONCACAF,2017-03-09
 76,Jamaica,JAM,465,443,-1,CONCACAF,2017-03-09
 77,Cabo Verde,CPV,460,466,3,CAF,2017-03-09
 78,Congo,CGO,455,455,2,CAF,2017-03-09
@@ -54829,7 +54829,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 67,Armenia,ARM,527,414,-18,UEFA,2017-04-06
 68,Honduras,HON,524,538,3,CONCACAF,2017-04-06
 69,Mali,MLI,504,586,8,CAF,2017-04-06
-70,Curacao,CUW,492,467,-4,CONCACAF,2017-04-06
+70,Curaçao,CUW,492,467,-4,CONCACAF,2017-04-06
 71,Guinea,GUI,474,501,1,CAF,2017-04-06
 72,Uganda,UGA,463,467,-2,CAF,2017-04-06
 73,Jamaica,JAM,458,465,-3,CONCACAF,2017-04-06
@@ -54845,7 +54845,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,Bolivia,BOL,460,453,-1,CONMEBOL,2017-05-04
 72,Uganda,UGA,463,463,0,CAF,2017-05-04
 71,Guinea,GUI,474,474,0,CAF,2017-05-04
-70,Curacao,CUW,492,492,0,CONCACAF,2017-05-04
+70,Curaçao,CUW,492,492,0,CONCACAF,2017-05-04
 69,Mali,MLI,504,504,0,CAF,2017-05-04
 68,Honduras,HON,524,524,0,CONCACAF,2017-05-04
 67,Armenia,ARM,527,527,0,UEFA,2017-05-04
@@ -55088,7 +55088,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,Kenya,KEN,463,428,-4,CAF,2017-06-01
 73,Bolivia,BOL,473,460,0,CONMEBOL,2017-06-01
 71,Uganda,UGA,478,463,-1,CAF,2017-06-01
-70,Curacao,CUW,492,492,0,CONCACAF,2017-06-01
+70,Curaçao,CUW,492,492,0,CONCACAF,2017-06-01
 69,Honduras,HON,517,524,1,CONCACAF,2017-06-01
 68,Armenia,ARM,527,527,1,UEFA,2017-06-01
 66,Mali,MLI,544,504,-3,CAF,2017-06-01
@@ -55291,7 +55291,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 71,Belarus,BLR,503,419,-12,UEFA,2017-07-06
 70,Israel,ISR,512,635,15,UEFA,2017-07-06
 69,Venezuela,VEN,521,630,11,CONMEBOL,2017-07-06
-68,Curacao,CUW,531,492,-2,CONCACAF,2017-07-06
+68,Curaçao,CUW,531,492,-2,CONCACAF,2017-07-06
 67,Bolivia,BOL,532,473,-6,CONMEBOL,2017-07-06
 66,Guinea,GUI,541,476,-6,CAF,2017-07-06
 65,Uzbekistan,UZB,579,582,3,AFC,2017-07-06
@@ -55674,7 +55674,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 83,Trinidad and Tobago,TRI,399,436,5,CONCACAF,2017-08-10
 83,Libya,LBY,399,396,-4,CAF,2017-08-10
 85,Norway,NOR,391,391,-3,UEFA,2017-08-10
-86,Curacao,CUW,384,531,18,CONCACAF,2017-08-10
+86,Curaçao,CUW,384,531,18,CONCACAF,2017-08-10
 88,Gabon,GAB,381,373,-3,CAF,2017-08-10
 89,Faroe Islands,FRO,376,376,-1,UEFA,2017-08-10
 90,Madagascar,MAD,370,380,1,CAF,2017-08-10
@@ -55844,7 +55844,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 55,Slovenia,SVN,636,652,4,UEFA,2017-09-14
 84,Estonia,EST,413,334,-14,UEFA,2017-09-14
 85,Qatar,QAT,406,433,7,AFC,2017-09-14
-86,Curacao,CUW,405,384,0,CONCACAF,2017-09-14
+86,Curaçao,CUW,405,384,0,CONCACAF,2017-09-14
 87,Finland,FIN,404,293,-23,UEFA,2017-09-14
 88,Benin,BEN,400,369,-3,CAF,2017-09-14
 88,Kenya,KEN,400,412,6,CAF,2017-09-14
@@ -56060,7 +56060,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 86,Cyprus,CYP,409,487,16,UEFA,2017-10-16
 87,Libya,LBY,407,422,6,CAF,2017-10-16
 88,Guinea-Bissau,GNB,403,381,-6,CAF,2017-10-16
-89,Curacao,CUW,402,405,3,CONCACAF,2017-10-16
+89,Curaçao,CUW,402,405,3,CONCACAF,2017-10-16
 90,Armenia,ARM,392,414,7,UEFA,2017-10-16
 91,Belarus,BLR,391,454,14,UEFA,2017-10-16
 92,Gabon,GAB,384,430,13,CAF,2017-10-16
@@ -56273,7 +56273,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 82,Palestine,PLE,427,418,-2,AFC,2017-11-23
 84,Luxembourg,LUX,407,368,-9,UEFA,2017-11-23
 84,Estonia,EST,407,429,4,UEFA,2017-11-23
-84,Curacao,CUW,407,402,-5,CONCACAF,2017-11-23
+84,Curaçao,CUW,407,402,-5,CONCACAF,2017-11-23
 87,Lebanon,LBN,404,352,-13,AFC,2017-11-23
 88,Guinea-Bissau,GNB,403,403,0,CAF,2017-11-23
 90,Armenia,ARM,383,392,0,UEFA,2017-11-23
@@ -56480,7 +56480,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 81,South Africa,RSA,433,434,0,CAF,2017-12-21
 82,Benin,BEN,427,427,0,CAF,2017-12-21
 83,Luxembourg,LUX,407,407,-1,UEFA,2017-12-21
-83,Curacao,CUW,407,407,-1,CONCACAF,2017-12-21
+83,Curaçao,CUW,407,407,-1,CONCACAF,2017-12-21
 85,Lebanon,LBN,404,404,-2,AFC,2017-12-21
 86,Guinea-Bissau,GNB,403,403,-2,CAF,2017-12-21
 87,Trinidad and Tobago,TRI,402,402,-2,CONCACAF,2017-12-21
@@ -56562,7 +56562,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 89,Libya,LBY,389,399,1,CAF,2018-01-18
 88,Estonia,EST,399,397,-1,UEFA,2018-01-18
 87,Haiti,HAI,403,607,31,CONCACAF,2018-01-18
-84,Curacao,CUW,407,407,1,CONCACAF,2018-01-18
+84,Curaçao,CUW,407,407,1,CONCACAF,2018-01-18
 84,Luxembourg,LUX,407,407,1,UEFA,2018-01-18
 83,Guinea-Bissau,GNB,409,403,-3,CAF,2018-01-18
 82,Iraq,IRQ,410,438,3,AFC,2018-01-18
@@ -56786,7 +56786,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 87,Estonia,EST,399,399,-1,UEFA,2018-02-15
 86,Haiti,HAI,403,403,-1,CONCACAF,2018-02-15
 85,Iraq,IRQ,406,410,3,AFC,2018-02-15
-83,Curacao,CUW,407,407,-1,CONCACAF,2018-02-15
+83,Curaçao,CUW,407,407,-1,CONCACAF,2018-02-15
 82,Lebanon,LBN,409,407,-2,AFC,2018-02-15
 56,Norway,NOR,577,572,-2,UEFA,2018-02-15
 29,Austria,AUT,815,815,0,UEFA,2018-02-15
@@ -57158,7 +57158,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 85,Haiti,HAI,403,403,-1,CONCACAF,2018-03-15
 83,Iraq,IRQ,405,406,-2,AFC,2018-03-15
 83,Luxembourg,LUX,405,407,0,UEFA,2018-03-15
-82,Curacao,CUW,407,407,-1,CONCACAF,2018-03-15
+82,Curaçao,CUW,407,407,-1,CONCACAF,2018-03-15
 81,Benin,BEN,427,427,0,CAF,2018-03-15
 133,New Zealand,NZL,229,267,13,OFC,2018-04-12
 129,Togo,TOG,242,241,1,CAF,2018-04-12
@@ -57320,7 +57320,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 94,Estonia,EST,364,399,8,UEFA,2018-04-12
 41,Bosnia and Herzegovina,BIH,688,700,0,UEFA,2018-04-12
 43,Montenegro,MNE,671,675,-3,UEFA,2018-04-12
-71,Curacao,CUW,439,407,-11,CONCACAF,2018-04-12
+71,Curaçao,CUW,439,407,-11,CONCACAF,2018-04-12
 72,South Africa,RSA,433,440,-4,CAF,2018-04-12
 73,China PR,CHN,431,508,8,AFC,2018-04-12
 74,Uganda,UGA,426,435,-4,CAF,2018-04-12
@@ -57577,7 +57577,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,Uganda,UGA,426,426,0,CAF,2018-05-17
 73,China PR,CHN,431,431,0,AFC,2018-05-17
 75,Kyrgyz Republic,KGZ,424,424,0,AFC,2018-05-17
-71,Curacao,CUW,439,439,0,CONCACAF,2018-05-17
+71,Curaçao,CUW,439,439,0,CONCACAF,2018-05-17
 70,Guinea,GUI,450,450,1,CAF,2018-05-17
 69,Côte d'Ivoire,CIV,458,458,1,CAF,2018-05-17
 67,Saudi Arabia,KSA,462,445,-3,AFC,2018-05-17
@@ -57631,7 +57631,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 84,Oman,OMA,391,383,-3,AFC,2018-06-07
 83,Congo,CGO,393,378,-6,CAF,2018-06-07
 82,Uganda,UGA,403,426,8,CAF,2018-06-07
-81,Curacao,CUW,408,439,10,CONCACAF,2018-06-07
+81,Curaçao,CUW,408,439,10,CONCACAF,2018-06-07
 79,Canada,CAN,411,407,-1,CONCACAF,2018-06-07
 79,Lebanon,LBN,411,404,-3,AFC,2018-06-07
 78,Belarus,BLR,417,410,-1,UEFA,2018-06-07
@@ -57820,7 +57820,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 79,Belarus,BLR,1579,1580,1,UEFA,2018-07-01
 54,Bulgaria,BUL,1743,1743,0,UEFA,2018-07-01
 102,India,IND,1426,1424,0,AFC,2018-07-01
-100,Curacao,CUW,1450,1450,0,CONCACAF,2018-07-01
+100,Curaçao,CUW,1450,1450,0,CONCACAF,2018-07-01
 99,Libya,LBY,1462,1462,0,CAF,2018-07-01
 98,Armenia,ARM,1469,1471,0,UEFA,2018-07-01
 97,Haiti,HAI,1474,1474,0,CONCACAF,2018-07-01
@@ -58168,7 +58168,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 78,Belarus,BLR,1306,1308,0,UEFA,2018-08-16
 79,Canada,CAN,1304,1304,0,CONCACAF,2018-08-16
 79,Lebanon,LBN,1304,1304,0,AFC,2018-08-16
-81,Curacao,CUW,1300,1300,0,CONCACAF,2018-08-16
+81,Curaçao,CUW,1300,1300,0,CONCACAF,2018-08-16
 82,Uganda,UGA,1296,1296,0,CAF,2018-08-16
 83,Congo,CGO,1292,1292,0,CAF,2018-08-16
 84,Oman,OMA,1288,1288,0,AFC,2018-08-16
@@ -58402,7 +58402,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 96,Uzbekistan,UZB,1245,1247,1,AFC,2018-09-20
 83,Uganda,UGA,1291,1296,1,CAF,2018-09-20
 105,Niger,NIG,1207,1216,2,CAF,2018-09-20
-81,Curacao,CUW,1303,1300,0,CONCACAF,2018-09-20
+81,Curaçao,CUW,1303,1300,0,CONCACAF,2018-09-20
 82,Luxembourg,LUX,1292,1286,-3,UEFA,2018-09-20
 58,Bolivia,BOL,1378,1378,-1,CONMEBOL,2018-09-20
 61,Slovenia,SVN,1376,1392,6,UEFA,2018-09-20
@@ -58630,7 +58630,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 82,Lebanon,LBN,1300,1308,5,AFC,2018-10-25
 81,United Arab Emirates,UAE,1305,1308,4,AFC,2018-10-25
 79,Uganda,UGA,1306,1291,-4,CAF,2018-10-25
-79,Curacao,CUW,1306,1303,-2,CONCACAF,2018-10-25
+79,Curaçao,CUW,1306,1303,-2,CONCACAF,2018-10-25
 59,Bolivia,BOL,1376,1378,1,CONMEBOL,2018-10-25
 77,Zambia,ZAM,1308,1316,2,CAF,2018-10-25
 76,Canada,CAN,1310,1307,-3,CONCACAF,2018-10-25
@@ -58683,7 +58683,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 83,Oman,OMA,1291,1287,-1,AFC,2018-11-29
 82,Zambia,ZAM,1292,1308,5,CAF,2018-11-29
 81,Lebanon,LBN,1296,1300,-1,AFC,2018-11-29
-80,Curacao,CUW,1306,1306,1,CONCACAF,2018-11-29
+80,Curaçao,CUW,1306,1306,1,CONCACAF,2018-11-29
 91,Kyrgyz Republic,KGZ,1264,1268,1,AFC,2018-11-29
 54,Jamaica,JAM,1404,1401,1,CONCACAF,2018-11-29
 26,Tunisia,TUN,1493,1515,4,CAF,2018-11-29
@@ -59056,7 +59056,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 76,China PR,CHN,1317,1317,0,AFC,2018-12-20
 78,Canada,CAN,1314,1314,0,CONCACAF,2018-12-20
 79,United Arab Emirates,UAE,1309,1309,0,AFC,2018-12-20
-80,Curacao,CUW,1306,1306,0,CONCACAF,2018-12-20
+80,Curaçao,CUW,1306,1306,0,CONCACAF,2018-12-20
 82,Oman,OMA,1295,1291,-1,AFC,2018-12-20
 59,Bolivia,BOL,1374,1374,0,CONMEBOL,2018-12-20
 1,Belgium,BEL,1727,1727,0,UEFA,2019-02-07
@@ -59241,7 +59241,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 105,Libya,LBY,1217,1217,1,CAF,2019-02-07
 95,Kyrgyz Republic,KGZ,1253,1264,4,AFC,2019-02-07
 82,Zambia,ZAM,1292,1292,-1,CAF,2019-02-07
-81,Curacao,CUW,1306,1306,1,CONCACAF,2019-02-07
+81,Curaçao,CUW,1306,1306,1,CONCACAF,2019-02-07
 80,Iraq,IRQ,1310,1271,-8,AFC,2019-02-07
 57,Egypt,EGY,1393,1393,1,CAF,2019-02-07
 58,Ecuador,ECU,1382,1382,1,CONMEBOL,2019-02-07
@@ -59295,7 +59295,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 67,United Arab Emirates,UAE,1360,1355,0,AFC,2019-04-04
 56,Jamaica,JAM,1391,1404,2,CONCACAF,2019-04-04
 79,Zambia,ZAM,1302,1292,-3,CAF,2019-04-04
-82,Curacao,CUW,1296,1306,1,CONCACAF,2019-04-04
+82,Curaçao,CUW,1296,1306,1,CONCACAF,2019-04-04
 104,Niger,NIG,1209,1205,-5,CAF,2019-04-04
 103,Mauritania,MTN,1210,1222,2,CAF,2019-04-04
 102,Faroe Islands,FRO,1213,1238,5,UEFA,2019-04-04
@@ -59663,7 +59663,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 103,Mauritania,MTN,1210,1210,0,CAF,2019-06-14
 93,Cyprus,CYP,1258,1276,4,UEFA,2019-06-14
 80,Uganda,UGA,1299,1302,1,CAF,2019-06-14
-79,Curacao,CUW,1302,1296,-3,CONCACAF,2019-06-14
+79,Curaçao,CUW,1302,1296,-3,CONCACAF,2019-06-14
 78,Canada,CAN,1314,1314,0,CONCACAF,2019-06-14
 55,Qatar,QAT,1396,1398,0,AFC,2019-06-14
 56,Finland,FIN,1394,1375,-4,UEFA,2019-06-14
@@ -59874,7 +59874,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 101,Trinidad and Tobago,TRI,1226,1260,9,CONCACAF,2019-07-25
 102,Palestine,PLE,1224,1224,2,AFC,2019-07-25
 91,Luxembourg,LUX,1265,1265,1,UEFA,2019-07-25
-79,Curacao,CUW,1309,1302,0,CONCACAF,2019-07-25
+79,Curaçao,CUW,1309,1302,0,CONCACAF,2019-07-25
 78,Canada,CAN,1312,1314,0,CONCACAF,2019-07-25
 77,Iraq,IRQ,1315,1315,0,AFC,2019-07-25
 54,Greece,GRE,1403,1403,2,UEFA,2019-07-25
@@ -60091,7 +60091,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Panama,PAN,1316,1331,3,CONCACAF,2019-09-19
 100,Trinidad and Tobago,TRI,1226,1226,-1,CONCACAF,2019-09-19
 75,Canada,CAN,1322,1312,-3,CONCACAF,2019-09-19
-76,Curacao,CUW,1320,1309,-3,CONCACAF,2019-09-19
+76,Curaçao,CUW,1320,1309,-3,CONCACAF,2019-09-19
 54,Finland,FIN,1398,1394,-3,UEFA,2019-09-19
 55,Congo DR,COD,1395,1395,-1,CAF,2019-09-19
 56,Côte d'Ivoire,CIV,1394,1394,-1,CAF,2019-09-19
@@ -60121,7 +60121,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 69,China PR,CHN,1339,1340,1,AFC,2019-10-24
 69,Saudi Arabia,KSA,1339,1336,-1,AFC,2019-10-24
 69,Canada,CAN,1339,1322,-6,CONCACAF,2019-10-24
-76,Curacao,CUW,1323,1320,0,CONCACAF,2019-10-24
+76,Curaçao,CUW,1323,1320,0,CONCACAF,2019-10-24
 67,United Arab Emirates,UAE,1353,1365,1,AFC,2019-10-24
 56,Côte d'Ivoire,CIV,1392,1394,0,CAF,2019-10-24
 65,Slovenia,SVN,1367,1390,7,UEFA,2019-10-24
@@ -60479,7 +60479,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 51,Egypt,EGY,1420,1433,2,CAF,2019-11-28
 78,Cabo Verde,CPV,1318,1319,1,CAF,2019-11-28
 79,Syria,SYR,1314,1292,-4,AFC,2019-11-28
-80,Curacao,CUW,1313,1323,4,CONCACAF,2019-11-28
+80,Curaçao,CUW,1313,1323,4,CONCACAF,2019-11-28
 81,Panama,PAN,1304,1310,1,CONCACAF,2019-11-28
 81,Oman,OMA,1304,1289,-3,AFC,2019-11-28
 83,Gabon,GAB,1297,1285,-4,CAF,2019-11-28
@@ -60716,7 +60716,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 83,Gabon,GAB,1297,1297,0,CAF,2019-12-19
 55,Qatar,QAT,1396,1398,0,AFC,2019-12-19
 82,Oman,OMA,1303,1304,1,AFC,2019-12-19
-80,Curacao,CUW,1313,1313,0,CONCACAF,2019-12-19
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2019-12-19
 56,Congo DR,COD,1389,1389,0,CAF,2019-12-19
 58,Finland,FIN,1386,1386,0,UEFA,2019-12-19
 59,Bulgaria,BUL,1381,1381,0,UEFA,2019-12-19
@@ -60926,7 +60926,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 53,Cameroon,CMR,1413,1413,0,CAF,2020-02-20
 99,Bahrain,BHR,1225,1225,0,AFC,2020-02-20
 81,Panama,PAN,1304,1304,0,CONCACAF,2020-02-20
-80,Curacao,CUW,1313,1313,0,CONCACAF,2020-02-20
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2020-02-20
 102,Armenia,ARM,1213,1213,0,UEFA,2020-02-20
 78,Cabo Verde,CPV,1318,1318,0,CAF,2020-02-20
 56,Congo DR,COD,1389,1389,0,CAF,2020-02-20
@@ -61098,7 +61098,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Uganda,UGA,1321,1321,0,CAF,2020-04-09
 78,Cabo Verde,CPV,1318,1318,0,CAF,2020-04-09
 79,Syria,SYR,1314,1314,0,AFC,2020-04-09
-80,Curacao,CUW,1313,1313,0,CONCACAF,2020-04-09
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2020-04-09
 81,Panama,PAN,1305,1304,0,CONCACAF,2020-04-09
 82,Oman,OMA,1303,1303,0,AFC,2020-04-09
 83,Gabon,GAB,1297,1297,0,CAF,2020-04-09
@@ -61322,7 +61322,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Uganda,UGA,1321,1321,0,CAF,2020-06-11
 78,Cabo Verde,CPV,1318,1318,0,CAF,2020-06-11
 79,Syria,SYR,1314,1314,0,AFC,2020-06-11
-80,Curacao,CUW,1313,1313,0,CONCACAF,2020-06-11
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2020-06-11
 81,Panama,PAN,1305,1304,0,CONCACAF,2020-06-11
 82,Oman,OMA,1303,1303,0,AFC,2020-06-11
 83,Gabon,GAB,1297,1297,0,CAF,2020-06-11
@@ -61577,7 +61577,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Uganda,UGA,1321,1321,0,CAF,2020-07-16
 78,Cabo Verde,CPV,1318,1318,0,CAF,2020-07-16
 79,Syria,SYR,1314,1314,0,AFC,2020-07-16
-80,Curacao,CUW,1313,1313,0,CONCACAF,2020-07-16
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2020-07-16
 81,Panama,PAN,1305,1304,0,CONCACAF,2020-07-16
 82,Oman,OMA,1303,1303,0,AFC,2020-07-16
 83,Gabon,GAB,1297,1297,0,CAF,2020-07-16
@@ -61597,7 +61597,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 83,Gabon,GAB,1297,1297,0,CAF,2020-09-17
 82,Oman,OMA,1303,1303,0,AFC,2020-09-17
 81,Panama,PAN,1305,1305,0,CONCACAF,2020-09-17
-80,Curacao,CUW,1313,1313,0,CONCACAF,2020-09-17
+80,Curaçao,CUW,1313,1313,0,CONCACAF,2020-09-17
 79,Syria,SYR,1314,1314,0,AFC,2020-09-17
 78,Cabo Verde,CPV,1318,1318,0,CAF,2020-09-17
 77,Uganda,UGA,1321,1321,0,CAF,2020-09-17
@@ -61955,7 +61955,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 28,Venezuela,VEN,1493,1517,3,CONMEBOL,2020-10-22
 53,Cameroon,CMR,1413,1413,0,CAF,2020-10-22
 79,Bolivia,BOL,1314,1324,4,CONMEBOL,2020-10-22
-81,Curacao,CUW,1313,1313,1,CONCACAF,2020-10-22
+81,Curaçao,CUW,1313,1313,1,CONCACAF,2020-10-22
 82,Oman,OMA,1303,1303,0,AFC,2020-10-22
 83,Benin,BEN,1300,1295,-1,CAF,2020-10-22
 84,Uzbekistan,UZB,1292,1290,-1,AFC,2020-10-22
@@ -62208,7 +62208,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 74,United Arab Emirates,UAE,1326,1329,0,AFC,2020-11-26
 75,China PR,CHN,1323,1323,0,AFC,2020-11-26
 76,Syria,SYR,1313,1314,-3,AFC,2020-11-26
-76,Curacao,CUW,1313,1313,-5,CONCACAF,2020-11-26
+76,Curaçao,CUW,1313,1313,-5,CONCACAF,2020-11-26
 104,India,IND,1187,1187,-4,AFC,2020-11-26
 120,Guinea-Bissau,GNB,1146,1155,2,CAF,2020-11-26
 210,San Marino,SMR,810,812,0,UEFA,2020-11-26
@@ -62236,7 +62236,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 56,Ecuador,ECU,1409,1409,0,CONMEBOL,2020-12-10
 55,Bosnia and Herzegovina,BIH,1410,1410,0,UEFA,2020-12-10
 54,Finland,FIN,1411,1411,0,UEFA,2020-12-10
-76,Curacao,CUW,1313,1313,0,CONCACAF,2020-12-10
+76,Curaçao,CUW,1313,1313,0,CONCACAF,2020-12-10
 76,Syria,SYR,1313,1313,0,AFC,2020-12-10
 78,Panama,PAN,1311,1311,0,CONCACAF,2020-12-10
 79,Uganda,UGA,1307,1307,0,CAF,2020-12-10
@@ -62598,7 +62598,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,Canada,CAN,1332,1332,1,CONCACAF,2021-02-18
 75,China PR,CHN,1323,1323,0,AFC,2021-02-18
 76,Syria,SYR,1313,1313,0,AFC,2021-02-18
-76,Curacao,CUW,1313,1313,0,CONCACAF,2021-02-18
+76,Curaçao,CUW,1313,1313,0,CONCACAF,2021-02-18
 78,Panama,PAN,1312,1311,0,CONCACAF,2021-02-18
 79,Bolivia,BOL,1307,1307,0,CONMEBOL,2021-02-18
 80,Cabo Verde,CPV,1306,1306,-1,CAF,2021-02-18
@@ -62841,7 +62841,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,Cabo Verde,CPV,1330.16,1306,-7,CAF,2021-04-07
 73,United Arab Emirates,UAE,1330.16,1326,-1,AFC,2021-04-07
 75,South Africa,RSA,1325.64,1341,4,CAF,2021-04-07
-76,Curacao,CUW,1323.06,1313,0,CONCACAF,2021-04-07
+76,Curaçao,CUW,1323.06,1313,0,CONCACAF,2021-04-07
 78,Panama,PAN,1321.97,1312,0,CONCACAF,2021-04-07
 95,Jordan,JOR,1251.63,1251.63,0,AFC,2021-05-27
 98,Bahrain,BHR,1240.1,1238.89,-1,AFC,2021-05-27
@@ -63050,7 +63050,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 73,United Arab Emirates,UAE,1330.16,1330.16,0,AFC,2021-05-27
 73,Cabo Verde,CPV,1330.16,1330.16,0,CAF,2021-05-27
 75,South Africa,RSA,1325.64,1325.64,0,CAF,2021-05-27
-76,Curacao,CUW,1323.06,1323.06,0,CONCACAF,2021-05-27
+76,Curaçao,CUW,1323.06,1323.06,0,CONCACAF,2021-05-27
 77,China PR,CHN,1322.96,1322.96,0,AFC,2021-05-27
 67,Honduras,HON,1361.21,1361.21,0,CONCACAF,2021-05-27
 204,Eritrea,ERI,855.56,855.56,1,CAF,2021-08-12
@@ -63109,7 +63109,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 81,Israel,ISR,1288.22,1283.36,-4,UEFA,2021-08-12
 80,Syria,SYR,1302.75,1304.12,1,AFC,2021-08-12
 79,Oman,OMA,1305.01,1301.51,-1,AFC,2021-08-12
-78,Curacao,CUW,1310.4,1323.06,2,CONCACAF,2021-08-12
+78,Curaçao,CUW,1310.4,1323.06,2,CONCACAF,2021-08-12
 77,Cabo Verde,CPV,1327.11,1330.16,4,CAF,2021-08-12
 75,Bulgaria,BUL,1334.83,1339.03,4,UEFA,2021-08-12
 50,Jamaica,JAM,1423.06,1432.65,5,CONCACAF,2021-08-12
@@ -63286,7 +63286,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 57,Bosnia and Herzegovina,BIH,1405.3,1401.57,-1,UEFA,2021-09-16
 78,Oman,OMA,1311.82,1305.01,-1,AFC,2021-09-16
 67,Congo DR,COD,1365.17,1373.16,2,CAF,2021-09-16
-79,Curacao,CUW,1310.4,1310.4,1,CONCACAF,2021-09-16
+79,Curaçao,CUW,1310.4,1310.4,1,CONCACAF,2021-09-16
 102,Kenya,KEN,1205.12,1205.26,-2,CAF,2021-09-16
 81,Syria,SYR,1296.75,1302.75,1,AFC,2021-09-16
 55,Finland,FIN,1406.92,1403.92,-1,UEFA,2021-09-16
@@ -63517,7 +63517,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 84,Uzbekistan,UZB,1279.73,1282.27,0,AFC,2021-10-21
 83,Benin,BEN,1282.34,1290.81,1,CAF,2021-10-21
 82,Uganda,UGA,1297.43,1279.85,-4,CAF,2021-10-21
-81,Curacao,CUW,1298.39,1310.4,2,CONCACAF,2021-10-21
+81,Curaçao,CUW,1298.39,1310.4,2,CONCACAF,2021-10-21
 80,Israel,ISR,1305.76,1310.33,0,UEFA,2021-10-21
 79,Guinea,GUI,1309.15,1326.09,3,CAF,2021-10-21
 89,Armenia,ARM,1257.17,1262.4,0,UEFA,2021-10-21
@@ -63717,7 +63717,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 83,Benin,BEN,1282.53,1282.34,0,CAF,2021-11-19
 82,Uganda,UGA,1285.28,1297.43,0,CAF,2021-11-19
 81,Guinea,GUI,1298.32,1309.15,2,CAF,2021-11-19
-80,Curacao,CUW,1298.39,1298.39,-1,CONCACAF,2021-11-19
+80,Curaçao,CUW,1298.39,1298.39,-1,CONCACAF,2021-11-19
 79,Israel,ISR,1306.7,1305.76,-1,UEFA,2021-11-19
 78,Oman,OMA,1307.09,1314.36,1,AFC,2021-11-19
 77,Bolivia,BOL,1324.21,1309.75,-1,CONMEBOL,2021-11-19
@@ -63899,7 +63899,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 78,Israel,ISR,1306.7,1306.7,-1,UEFA,2021-12-23
 59,Venezuela,VEN,1409.14,1409.14,0,CONMEBOL,2021-12-23
 79,Oman,OMA,1306.01,1307.09,1,AFC,2021-12-23
-80,Curacao,CUW,1298.39,1298.39,0,CONCACAF,2021-12-23
+80,Curaçao,CUW,1298.39,1298.39,0,CONCACAF,2021-12-23
 81,Guinea,GUI,1298.32,1298.32,0,CAF,2021-12-23
 76,Honduras,HON,1332.16,1332.16,0,CONCACAF,2021-12-23
 74,China PR,CHN,1337.33,1337.33,0,AFC,2021-12-23
@@ -64273,7 +64273,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 77,Israel,ISR,1306.7,1306.7,-1,UEFA,2022-02-10
 78,Honduras,HON,1303.96,1332.16,2,CONCACAF,2022-02-10
 79,Oman,OMA,1301.0,1306.01,0,AFC,2022-02-10
-80,Curacao,CUW,1298.39,1298.39,0,CONCACAF,2022-02-10
+80,Curaçao,CUW,1298.39,1298.39,0,CONCACAF,2022-02-10
 81,Guinea,GUI,1292.58,1298.32,0,CAF,2022-02-10
 83,Benin,BEN,1282.53,1282.53,0,CAF,2022-02-10
 73,Cabo Verde,CPV,1336.88,1339.48,0,CAF,2022-02-10
@@ -64337,7 +64337,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 66,Albania,ALB,1371.86,1374.98,1,UEFA,2022-03-31
 77,China PR,CHN,1304.02,1313.81,2,AFC,2022-03-31
 98,Congo,CGO,1211.33,1221.4,1,CAF,2022-03-31
-79,Curacao,CUW,1298.39,1298.39,-1,CONCACAF,2022-03-31
+79,Curaçao,CUW,1298.39,1298.39,-1,CONCACAF,2022-03-31
 102,Madagascar,MAD,1205.61,1205.61,0,CAF,2022-03-31
 101,New Zealand,NZL,1206.07,1161.66,-10,OFC,2022-03-31
 100,Palestine,PLE,1208.9,1208.9,0,AFC,2022-03-31
@@ -64572,7 +64572,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 88,Zambia,ZAM,1268.18,1267.04,1,CAF,2022-06-23
 87,Haiti,HAI,1269.07,1261.86,-3,CONCACAF,2022-06-23
 86,Jordan,JOR,1279.74,1259.84,-5,AFC,2022-06-23
-84,Curacao,CUW,1293.35,1298.39,5,CONCACAF,2022-06-23
+84,Curaçao,CUW,1293.35,1298.39,5,CONCACAF,2022-06-23
 59,Finland,FIN,1398.41,1406.87,2,UEFA,2022-06-23
 58,Northern Ireland,NIR,1399.1,1423.55,4,UEFA,2022-06-23
 57,Bosnia and Herzegovina,BIH,1403.98,1388.63,-2,UEFA,2022-06-23
@@ -64901,7 +64901,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 81,Bolivia,BOL,1298.81,1298.81,0,CONMEBOL,2022-08-25
 82,Georgia,GEO,1296.46,1296.46,0,UEFA,2022-08-25
 83,Guinea,GUI,1294.89,1294.89,0,CAF,2022-08-25
-84,Curacao,CUW,1293.35,1293.35,0,CONCACAF,2022-08-25
+84,Curaçao,CUW,1293.35,1293.35,0,CONCACAF,2022-08-25
 85,Bahrain,BHR,1289.25,1289.25,0,AFC,2022-08-25
 86,Jordan,JOR,1279.74,1279.74,0,AFC,2022-08-25
 87,Zambia,ZAM,1270.8,1268.18,-1,CAF,2022-08-25
@@ -64989,7 +64989,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 89,Uganda,UGA,1260.69,1264.56,-1,CAF,2022-10-06
 88,Zambia,ZAM,1267.41,1270.8,1,CAF,2022-10-06
 87,Haiti,HAI,1269.07,1269.07,-1,CONCACAF,2022-10-06
-86,Curacao,CUW,1278.64,1293.35,2,CONCACAF,2022-10-06
+86,Curaçao,CUW,1278.64,1293.35,2,CONCACAF,2022-10-06
 85,Bahrain,BHR,1280.64,1289.25,0,AFC,2022-10-06
 84,Jordan,JOR,1289.99,1279.74,-2,AFC,2022-10-06
 83,Guinea,GUI,1290.47,1294.89,0,CAF,2022-10-06
@@ -65205,7 +65205,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 52,Romania,ROU,1432.64,1434.68,-1,UEFA,2022-12-22
 89,Uganda,UGA,1260.69,1260.69,0,CAF,2022-12-22
 87,Haiti,HAI,1269.07,1269.07,0,CONCACAF,2022-12-22
-86,Curacao,CUW,1278.64,1278.64,0,CONCACAF,2022-12-22
+86,Curaçao,CUW,1278.64,1278.64,0,CONCACAF,2022-12-22
 85,Bahrain,BHR,1280.27,1280.64,0,AFC,2022-12-22
 84,Jordan,JOR,1289.99,1289.99,0,AFC,2022-12-22
 83,Guinea,GUI,1290.47,1290.47,0,CAF,2022-12-22
@@ -65572,7 +65572,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 82,Gabon,GAB,1296.74,1305.47,3,CAF,2023-04-06
 81,China PR,CHN,1297.98,1305.06,1,AFC,2023-04-06
 90,Syria,SYR,1246.75,1251.46,0,AFC,2023-04-06
-88,Curacao,CUW,1272.26,1278.64,2,CONCACAF,2023-04-06
+88,Curaçao,CUW,1272.26,1278.64,2,CONCACAF,2023-04-06
 87,Haiti,HAI,1275.96,1269.07,0,CONCACAF,2023-04-06
 89,Uganda,UGA,1257.3,1260.69,0,CAF,2023-04-06
 86,Zambia,ZAM,1280.52,1265.15,-2,CAF,2023-04-06
@@ -65784,7 +65784,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 79,China PR,CHN,1304.78,1297.98,-2,AFC,2023-06-29
 87,Haiti,HAI,1275.96,1275.96,0,CONCACAF,2023-06-29
 86,Bahrain,BHR,1282.05,1282.05,1,AFC,2023-06-29
-88,Curacao,CUW,1267.87,1272.26,0,CONCACAF,2023-06-29
+88,Curaçao,CUW,1267.87,1272.26,0,CONCACAF,2023-06-29
 84,Zambia,ZAM,1290.2,1280.52,-2,CAF,2023-06-29
 83,Bolivia,BOL,1295.09,1296.42,0,CONMEBOL,2023-06-29
 82,Jordan,JOR,1296.26,1293.26,-2,AFC,2023-06-29
@@ -65838,7 +65838,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 92,Uganda,UGA,1250.32,1250.32,0,CAF,2023-07-20
 90,Armenia,ARM,1252.6,1252.6,0,UEFA,2023-07-20
 89,Luxembourg,LUX,1262.72,1262.72,0,UEFA,2023-07-20
-88,Curacao,CUW,1267.87,1267.87,0,CONCACAF,2023-07-20
+88,Curaçao,CUW,1267.87,1267.87,0,CONCACAF,2023-07-20
 86,Bahrain,BHR,1282.05,1282.05,0,AFC,2023-07-20
 85,Gabon,GAB,1285.25,1285.25,0,CAF,2023-07-20
 84,Zambia,ZAM,1293.77,1290.2,0,CAF,2023-07-20
@@ -66175,7 +66175,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 87,Haiti,HAI,1270.76,1272.64,0,CONCACAF,2023-09-21
 88,Gabon,GAB,1270.55,1285.25,3,CAF,2023-09-21
 89,Uganda,UGA,1259.97,1250.32,-3,CAF,2023-09-21
-90,Curacao,CUW,1259.4,1267.87,2,CONCACAF,2023-09-21
+90,Curaçao,CUW,1259.4,1267.87,2,CONCACAF,2023-09-21
 91,Armenia,ARM,1254.47,1252.6,1,UEFA,2023-09-21
 92,Equatorial Guinea,EQG,1248.98,1251.83,1,CAF,2023-09-21
 47,Romania,ROU,1448.02,1443.98,-1,UEFA,2023-09-21
@@ -66243,7 +66243,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 92.0,Syria,SYR,1239.37,1245.81,-1,AFC,2023-10-26
 91.0,Equatorial Guinea,EQG,1250.46,1248.98,-1,CAF,2023-10-26
 90.0,Uganda,UGA,1251.94,1259.97,1,CAF,2023-10-26
-89.0,Curacao,CUW,1261.62,1259.4,-1,CONCACAF,2023-10-26
+89.0,Curaçao,CUW,1261.62,1259.4,-1,CONCACAF,2023-10-26
 88.0,Haiti,HAI,1262.5,1270.76,1,CONCACAF,2023-10-26
 87.0,Luxembourg,LUX,1266.67,1273.55,2,UEFA,2023-10-26
 86.0,Gabon,GAB,1270.8,1270.55,-2,CAF,2023-10-26
@@ -66467,7 +66467,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 82.0,Gabon,GAB,1289.52,1270.8,-4,CAF,2023-11-30
 81.0,Bulgaria,BUL,1289.9,1279.12,-3,UEFA,2023-11-30
 80.0,Guinea,GUI,1290.01,1296.89,0,CAF,2023-11-30
-90.0,Curacao,CUW,1262.48,1261.62,1,CONCACAF,2023-11-30
+90.0,Curaçao,CUW,1262.48,1261.62,1,CONCACAF,2023-11-30
 51.0,Mali,MLI,1445.6,1449.75,4,CAF,2023-11-30
 50.0,Côte d'Ivoire,CIV,1447.65,1439.17,-2,CAF,2023-11-30
 49.0,Venezuela,VEN,1448.77,1445.67,0,CONMEBOL,2023-11-30
@@ -66666,7 +66666,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 80.0,Guinea,GUI,1290.01,1290.01,0,CAF,2023-12-21
 93.0,Armenia,ARM,1237.15,1237.15,0,UEFA,2023-12-21
 92.0,Uganda,UGA,1245.08,1245.08,0,CAF,2023-12-21
-90.0,Curacao,CUW,1262.48,1262.48,0,CONCACAF,2023-12-21
+90.0,Curaçao,CUW,1262.48,1262.48,0,CONCACAF,2023-12-21
 89.0,Haiti,HAI,1262.5,1262.5,0,CONCACAF,2023-12-21
 88.0,Equatorial Guinea,EQG,1268.43,1268.43,0,CAF,2023-12-21
 87.0,Jordan,JOR,1272.63,1272.63,0,AFC,2023-12-21
@@ -67016,7 +67016,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 88.0,China PR,CHN,1273.78,1299.49,9,AFC,2024-02-15
 89.0,Syria,SYR,1265.51,1245.27,-2,AFC,2024-02-15
 90.0,Haiti,HAI,1262.5,1262.5,1,CONCACAF,2024-02-15
-91.0,Curacao,CUW,1262.48,1262.48,1,CONCACAF,2024-02-15
+91.0,Curaçao,CUW,1262.48,1262.48,1,CONCACAF,2024-02-15
 92.0,Uganda,UGA,1246.88,1245.08,0,CAF,2024-02-15
 93.0,Angola,ANG,1238.11,1168.05,-24,CAF,2024-02-15
 94.0,Armenia,ARM,1237.15,1237.15,1,UEFA,2024-02-15
@@ -67213,7 +67213,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 64.0,Uzbekistan,UZB,1386.58,1376.5,-2,AFC,2024-04-04
 41.0,Tunisia,TUN,1493.12,1491.15,0,CAF,2024-04-04
 66.0,Albania,ALB,1375.1,1382.69,2,UEFA,2024-04-04
-91.0,Curacao,CUW,1262.48,1262.48,0,CONCACAF,2024-04-04
+91.0,Curaçao,CUW,1262.48,1262.48,0,CONCACAF,2024-04-04
 92.0,Uganda,UGA,1242.15,1246.88,0,CAF,2024-04-04
 93.0,Palestine,PLE,1238.66,1227.2,-4,AFC,2024-04-04
 94.0,Angola,ANG,1235.76,1238.11,1,CAF,2024-04-04
@@ -67302,7 +67302,7 @@ rank,country_full,country_abrv,total_points,previous_points,rank_change,confeder
 90.0,Zambia,ZAM,1258.4,1278.26,4,CAF,2024-06-20
 89.0,Equatorial Guinea,EQG,1260.5,1308.03,10,CAF,2024-06-20
 88.0,China PR,CHN,1267.51,1275.22,0,AFC,2024-06-20
-87.0,Curacao,CUW,1272.71,1262.48,-4,CONCACAF,2024-06-20
+87.0,Curaçao,CUW,1272.71,1262.48,-4,CONCACAF,2024-06-20
 86.0,Haiti,HAI,1274.46,1262.5,-4,CONCACAF,2024-06-20
 85.0,Luxembourg,LUX,1276.73,1277.94,-2,UEFA,2024-06-20
 84.0,Bolivia,BOL,1282.43,1283.88,-1,CONMEBOL,2024-06-20
