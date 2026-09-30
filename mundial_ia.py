@@ -1,46 +1,28 @@
-import pandas as pd
-import numpy as np
-import random
-
+import pandas as pd, numpy as np, random
 from collections import Counter, defaultdict
-
 from sklearn.ensemble import RandomForestClassifier, RandomForestRegressor
-from sklearn.metrics import (
-    accuracy_score,
-    classification_report,
-    confusion_matrix,
-    log_loss
-)
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix, log_loss
 
 # ==========================================================
 # CONFIGURACIÓN
 # ==========================================================
 
 ARCHIVO = "teams_match_features.csv"
-
 FECHA_INICIO = "2010-01-01"
 FECHA_CORTE = "2022-12-31"
-
 N_SIMULACIONES = 100000
-
 SEMILLA = 42
 
 random.seed(SEMILLA)
 np.random.seed(SEMILLA)
-
 
 # ==========================================================
 # CARGAR DATASET
 # ==========================================================
 
 df = pd.read_csv(ARCHIVO)
-
 df["_date"] = pd.to_datetime(df["_date"])
-
-df = df[
-    df["_date"] >= pd.to_datetime(FECHA_INICIO)
-].copy()
-
+df = df[df["_date"] >= pd.to_datetime(FECHA_INICIO)].copy()
 df = df.sort_values("_date").reset_index(drop=True)
 
 
@@ -49,86 +31,44 @@ df = df.sort_values("_date").reset_index(drop=True)
 # ==========================================================
 
 def obtener_resultado(row):
-
     if row["home_goals"] > row["away_goals"]:
         return 0
-
     elif row["home_goals"] == row["away_goals"]:
         return 1
-
     else:
         return 2
 
-
-df["resultado"] = df.apply(
-    obtener_resultado,
-    axis=1
-)
-
+df["resultado"] = df.apply(obtener_resultado, axis=1)
 
 # ==========================================================
 # VARIABLES DEL MODELO
 # ==========================================================
 
 variables = [
-
-    "elo_diff",
-
-    "overall_diff",
-
-    "attack_diff",
-
-    "defense_diff",
-
-    "home_form_scored",
-    "away_form_scored",
-
-    "home_form_conceded",
-    "away_form_conceded",
-
-    "home_form_win_rate",
-    "away_form_win_rate",
-
-    "is_neutral",
-
-    "is_world_cup",
-
-    "is_continental"
+    "elo_diff", "overall_diff", "attack_diff", "defense_diff",
+    "home_form_scored", "away_form_scored",
+    "home_form_conceded", "away_form_conceded",
+    "home_form_win_rate", "away_form_win_rate",
+    "is_neutral", "is_world_cup", "is_continental",
 ]
-
 
 # ==========================================================
 # LIMPIAR DATOS
 # ==========================================================
 
 for variable in variables:
+    df[variable] = pd.to_numeric(df[variable], errors="coerce")
 
-    df[variable] = pd.to_numeric(
-        df[variable],
-        errors="coerce"
-    )
-
-df[variables] = df[variables].fillna(
-    df[variables].median()
-)
-
+df[variables] = df[variables].fillna(df[variables].median())
 
 # ==========================================================
 # TRAIN / TEST TEMPORAL
 # ==========================================================
 
-train = df[
-    df["_date"] <= pd.to_datetime(FECHA_CORTE)
-].copy()
-
-test = df[
-    df["_date"] > pd.to_datetime(FECHA_CORTE)
-].copy()
-
-
+train = df[df["_date"] <= pd.to_datetime(FECHA_CORTE)].copy()
+test = df[df["_date"] > pd.to_datetime(FECHA_CORTE)].copy()
 X_train = train[variables]
 X_test = test[variables]
-
 y_train = train["resultado"]
 y_test = test["resultado"]
 
@@ -138,25 +78,15 @@ y_test = test["resultado"]
 # ==========================================================
 
 modelo_resultado = RandomForestClassifier(
-
     n_estimators=700,
-
     max_depth=14,
-
     min_samples_split=8,
-
     min_samples_leaf=3,
-
     max_features="sqrt",
-
     class_weight="balanced",
-
     random_state=SEMILLA,
-
     n_jobs=-1
-
 )
-
 
 modelo_resultado.fit(
     X_train,
@@ -168,119 +98,41 @@ modelo_resultado.fit(
 # EVALUACIÓN
 # ==========================================================
 
-predicciones = modelo_resultado.predict(
-    X_test
-)
-
-probabilidades_test = modelo_resultado.predict_proba(
-    X_test
-)
-
+predicciones = modelo_resultado.predict(X_test)
+probabilidades_test = modelo_resultado.predict_proba(X_test)
 
 print()
 print("==========================================")
 print("EVALUACIÓN DEL MODELO")
 print("==========================================")
-
 print()
-
-print(
-    "Partidos entrenamiento:",
-    len(train)
-)
-
-print(
-    "Partidos prueba:",
-    len(test)
-)
-
+print("Partidos entrenamiento:", len(train))
+print("Partidos prueba:", len(test))
 print()
-
-print(
-    "Accuracy:",
-    round(
-        accuracy_score(
-            y_test,
-            predicciones
-        ),
-        4
-    )
-)
-
+print("Accuracy:", round(accuracy_score(y_test, predicciones), 4))
 print()
-
-print(
-    "Log Loss:",
-    round(
-        log_loss(
-            y_test,
-            probabilidades_test,
-            labels=[0, 1, 2]
-        ),
-        4
-    )
-)
-
+print("Log Loss:", round(log_loss(y_test, probabilidades_test, labels=[0, 1, 2]), 4))
 print()
-
 print("Informe de clasificación:")
-
-print(
-    classification_report(
-        y_test,
-        predicciones,
-        target_names=[
-            "Victoria local",
-            "Empate",
-            "Victoria visitante"
-        ]
-    )
-)
-
+print(classification_report(y_test, predicciones, target_names=["Victoria local", "Empate", "Victoria visitante"]))
 print()
-
 print("Matriz de confusión:")
-
-print(
-    confusion_matrix(
-        y_test,
-        predicciones
-    )
-)
+print(confusion_matrix(y_test, predicciones))
 
 
 # ==========================================================
 # IMPORTANCIA DE VARIABLES
 # ==========================================================
 
-importancias = pd.DataFrame({
-
-    "Variable": variables,
-
-    "Importancia":
-        modelo_resultado.feature_importances_
-
-})
-
-importancias = importancias.sort_values(
-    "Importancia",
-    ascending=False
-)
-
+importancias = pd.DataFrame({"Variable": variables, "Importancia": modelo_resultado.feature_importances_})
+importancias = importancias.sort_values("Importancia", ascending=False)
 
 print()
-
 print("==========================================")
 print("IMPORTANCIA DE LAS VARIABLES")
 print("==========================================")
-
 print()
-
-print(
-    importancias.to_string(
-        index=False
-    )
-)
+print(importancias.to_string(index=False))
 
 
 # ==========================================================
@@ -288,29 +140,11 @@ print(
 # ==========================================================
 
 variables_goles = [
-
-    "elo_diff",
-
-    "overall_diff",
-
-    "attack_diff",
-
-    "defense_diff",
-
-    "home_form_scored",
-    "away_form_scored",
-
-    "home_form_conceded",
-    "away_form_conceded",
-
-    "home_form_win_rate",
-    "away_form_win_rate",
-
-    "is_neutral",
-
-    "is_world_cup",
-
-    "is_continental"
+    "elo_diff", "overall_diff", "attack_diff", "defense_diff",
+    "home_form_scored", "away_form_scored",
+    "home_form_conceded", "away_form_conceded",
+    "home_form_win_rate", "away_form_win_rate",
+    "is_neutral", "is_world_cup", "is_continental",
 ]
 
 
@@ -427,21 +261,13 @@ for _, fila in df.sort_values("_date").iterrows():
 # ==========================================================
 
 equivalencias = {
-
     "United States": "USA",
-
     "South Korea": "Korea Republic",
-
     "Iran": "IR Iran",
-
     "Turkey": "Türkiye",
-
     "Czech Republic": "Czechia",
-
     "DR Congo": "Congo DR",
-
-    "Ivory Coast": "Côte d'Ivoire"
-
+    "Ivory Coast": "Côte d'Ivoire",
 }
 
 
@@ -621,123 +447,36 @@ def goles_esperados(equipo1, equipo2):
 # SIMULAR MARCADOR
 # ==========================================================
 
-def simular_marcador(
-    equipo1,
-    equipo2,
-    eliminatoria=False
-):
-
-    p = probabilidades(
-        equipo1,
-        equipo2
-    )
-
-
-    lambda1, lambda2 = goles_esperados(
-        equipo1,
-        equipo2
-    )
-
-
-    # Ajuste ligero para que el resultado del
-    # Random Forest también influya en los goles.
-
-    ratio_1 = (
-        p["victoria_1"]
-        /
-        max(
-            p["victoria_2"],
-            0.05
-        )
-    )
-
-
-    ratio_2 = (
-        p["victoria_2"]
-        /
-        max(
-            p["victoria_1"],
-            0.05
-        )
-    )
-
+def simular_marcador(equipo1, equipo2, eliminatoria=False):
+    p = probabilidades(equipo1, equipo2)
+    lambda1, lambda2 = goles_esperados(equipo1, equipo2)
+    ratio_1 = p["victoria_1"] / max(p["victoria_2"], 0.05)
+    ratio_2 = p["victoria_2"] / max(p["victoria_1"], 0.05)
 
     if ratio_1 > 1:
-
-        lambda1 *= (
-            1
-            +
-            0.10
-            *
-            min(
-                ratio_1 - 1,
-                1
-            )
-        )
-
-
+        lambda1 *= 1 + 0.10 * min(ratio_1 - 1, 1)
     if ratio_2 > 1:
+        lambda2 *= 1 + 0.10 * min(ratio_2 - 1, 1)
 
-        lambda2 *= (
-            1
-            +
-            0.10
-            *
-            min(
-                ratio_2 - 1,
-                1
-            )
-        )
+    lambda1 = min(lambda1, 5)
+    lambda2 = min(lambda2, 5)
 
-
-    lambda1 = min(
-        lambda1,
-        5
-    )
-
-    lambda2 = min(
-        lambda2,
-        5
-    )
-
-
-    goles1 = np.random.poisson(
-        lambda1
-    )
-
-    goles2 = np.random.poisson(
-        lambda2
-    )
-
+    goles1 = np.random.poisson(lambda1)
+    goles2 = np.random.poisson(lambda2)
 
     # En fase de grupos los empates son válidos.
-
     if not eliminatoria:
-
         return goles1, goles2
-
 
     # En eliminatorias no puede acabar empatado.
     # Se resuelve mediante penaltis.
-
     if goles1 != goles2:
-
         return goles1, goles2
 
-
     # Penaltis
-
-    if random.random() < p["victoria_1"] / (
-        p["victoria_1"]
-        +
-        p["victoria_2"]
-    ):
-
+    if random.random() < p["victoria_1"] / (p["victoria_1"] + p["victoria_2"]):
         return goles1 + 1, goles2
-
-    else:
-
-        return goles1, goles2 + 1
+    return goles1, goles2 + 1
 
 
 # ==========================================================
