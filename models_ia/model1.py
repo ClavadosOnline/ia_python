@@ -3,9 +3,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
-# ==========================
 # CARREGAR RESULTATS
-# ==========================
 
 results = pd.read_csv("results.csv")
 
@@ -15,9 +13,7 @@ results = results[
     results["date"] >= "2018-01-01"
 ]
 
-# ==========================
 # CARREGAR RANKING FIFA
-# ==========================
 
 ranking = pd.read_csv("fifa_mens_rank.csv")
 
@@ -27,9 +23,7 @@ ranking["date"] = pd.to_datetime(
 
 ranking = ranking.sort_values("date")
 
-# ==========================
 # CORREGIR NOMS
-# ==========================
 
 equivalencies = {
 
@@ -48,9 +42,7 @@ equivalencies = {
 results["home_team"] = results["home_team"].replace(equivalencies)
 results["away_team"] = results["away_team"].replace(equivalencies)
 
-# ==========================
 # FUNCIÓ RANKING
-# ==========================
 
 def dades_fifa(equip,data):
 
@@ -68,9 +60,7 @@ def dades_fifa(equip,data):
 
     return fila
 
-# ==========================
 # CREAR DATASET
-# ==========================
 
 dataset=[]
 
@@ -114,9 +104,7 @@ dataset=pd.DataFrame(dataset)
 
 print("Partits:",len(dataset))
 
-# ==========================
 # VARIABLES
-# ==========================
 
 X=dataset[
 [
@@ -127,9 +115,7 @@ X=dataset[
 
 y=dataset["resultat"]
 
-# ==========================
 # TRAIN TEST
-# ==========================
 
 X_train,X_test,y_train,y_test=train_test_split(
 
@@ -140,9 +126,7 @@ X_train,X_test,y_train,y_test=train_test_split(
 
 )
 
-# ==========================
 # MODEL
-# ==========================
 
 model=LogisticRegression(
     max_iter=1000
@@ -153,9 +137,7 @@ model.fit(
     y_train
 )
 
-# ==========================
 # RESULTATS
-# ==========================
 
 pred=model.predict(X_test)
 
