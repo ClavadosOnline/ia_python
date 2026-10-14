@@ -1,6 +1,6 @@
 import pandas as pd
-import numpy as np
 import random
+from collections import Counter
 
 from sklearn.model_selection import train_test_split
 from sklearn.ensemble import RandomForestClassifier
@@ -29,22 +29,15 @@ df["resultat"] = (
 
 variables = [
     "elo_diff",
-
     "overall_diff",
-
     "attack_diff",
-
     "defense_diff",
-
     "home_form_scored",
     "away_form_scored",
-
     "home_form_conceded",
     "away_form_conceded",
-
     "home_form_win_rate",
     "away_form_win_rate",
-
     "is_neutral"
 ]
 
@@ -83,25 +76,9 @@ model.fit(X_train, y_train)
 
 pred = model.predict(X_test)
 print("\nPrecisió:")
-print(
-
-    accuracy_score(
-        y_test,
-        pred
-    )
-
-)
-
+print(accuracy_score(y_test, pred))
 print("\nInforme:\n")
-
-print(
-
-    classification_report(
-        y_test,
-        pred
-    )
-
-)
+print(classification_report(y_test, pred))
 
 # ==========================================================
 # IMPORTÀNCIA VARIABLES
@@ -112,10 +89,7 @@ imp = pd.DataFrame({
     "Importancia": model.feature_importances_
 })
 
-imp = imp.sort_values(
-    "Importancia",
-    ascending=False
-)
+imp = imp.sort_values("Importancia", ascending=False)
 
 print("\nImportància variables:\n")
 print(imp)
@@ -127,9 +101,7 @@ print(imp)
 equips = {}
 
 for _, fila in df.sort_values("_date").iterrows():
-
     home = fila["_home_team"]
-
     equips[home] = {
         "elo": fila["home_elo"],
         "overall": fila["home_avg_overall"],
@@ -156,20 +128,17 @@ for _, fila in df.sort_values("_date").iterrows():
 # ==========================================================
 
 equivalencies = {
-    "United States":"USA",
-    "South Korea":"Korea Republic",
-    "Iran":"IR Iran",
-    "Turkey":"Türkiye",
-    "Czech Republic":"Czechia",
-    "DR Congo":"Congo DR",
-    "Ivory Coast":"Côte d'Ivoire"
+    "United States": "USA",
+    "South Korea": "Korea Republic",
+    "Iran": "IR Iran",
+    "Turkey": "Türkiye",
+    "Czech Republic": "Czechia",
+    "DR Congo": "Congo DR",
+    "Ivory Coast": "Côte d'Ivoire"
 }
 
-# invertir diccionari
+mapa = {nou: antic for antic, nou in equivalencies.items()}
 
-mapa = {}
-for antic, nou in equivalencies.items():
-    mapa[nou] = antic
 # ==========================================================
 # NORMALITZAR NOM
 # ==========================================================
@@ -177,16 +146,13 @@ for antic, nou in equivalencies.items():
 def nom_dataset(equip):
     if equip in equips:
         return equip
-    if equip in mapa:
-        return mapa[equip]
-    return equip
+    return mapa.get(equip, equip)
 
 # ==========================================================
 # PROBABILITAT DE VICTÒRIA
 # ==========================================================
 
 def probabilitat(equip1, equip2):
-
     equip1 = nom_dataset(equip1)
     equip2 = nom_dataset(equip2)
 
@@ -214,63 +180,49 @@ def probabilitat(equip1, equip2):
 # ==========================================================
 
 def simular_partit(equip1, equip2):
-
     p = probabilitat(equip1, equip2)
-
     if p > 0.80:
-
         marcador = random.choice([
-            (3,0),
-            (2,0),
-            (3,1),
-            (4,1)
+            (3, 0),
+            (2, 0),
+            (3, 1),
+            (4, 1)
         ])
-
     elif p > 0.65:
-
         marcador = random.choice([
-            (2,0),
-            (2,1),
-            (1,0),
-            (3,1)
+            (2, 0),
+            (2, 1),
+            (1, 0),
+            (3, 1)
         ])
-
     elif p > 0.55:
-
         marcador = random.choice([
-            (2,1),
-            (1,0),
-            (1,1),
-            (2,2)
+            (2, 1),
+            (1, 0),
+            (1, 1),
+            (2, 2)
         ])
-
     elif p > 0.45:
-
         marcador = random.choice([
-            (1,1),
-            (0,0),
-            (2,1),
-            (1,2)
+            (1, 1),
+            (0, 0),
+            (2, 1),
+            (1, 2)
         ])
-
     elif p > 0.35:
-
         marcador = random.choice([
-            (0,1),
-            (1,2),
-            (0,2),
-            (1,1)
+            (0, 1),
+            (1, 2),
+            (0, 2),
+            (1, 1)
         ])
-
     else:
-
         marcador = random.choice([
-            (0,2),
-            (0,3),
-            (1,3),
-            (1,2)
+            (0, 2),
+            (0, 3),
+            (1, 3),
+            (1, 2)
         ])
-
     return marcador
 
 # ==========================================================
@@ -278,18 +230,18 @@ def simular_partit(equip1, equip2):
 # ==========================================================
 
 GRUPS = {
-    "A": ["Mexico","South Africa","Korea Republic","Czechia"],
-    "B": ["Canada","Bosnia and Herzegovina","Qatar","Switzerland"],
-    "C": ["Brazil","Morocco","Haiti","Scotland"],
-    "D": ["USA","Paraguay","Australia","Türkiye"],
-    "E": ["Germany","Jamaica","Côte d'Ivoire","Ecuador"],
-    "F": ["Netherlands","Japan","Sweden","Tunisia"],
-    "G": ["Belgium","Egypt","IR Iran","New Zealand"],
-    "H": ["Spain","Greece","Saudi Arabia","Uruguay"],
-    "I": ["France","Senegal","Iraq","Norway"],
-    "J": ["Argentina","Algeria","Austria","Jordan"],
-    "K": ["Portugal","Congo DR","Uzbekistan","Colombia"],
-    "L": ["England","Croatia","Ghana","Panama"]
+    "A": ["Mexico", "South Africa", "Korea Republic", "Czechia"],
+    "B": ["Canada", "Bosnia and Herzegovina", "Qatar", "Switzerland"],
+    "C": ["Brazil", "Morocco", "Haiti", "Scotland"],
+    "D": ["USA", "Paraguay", "Australia", "Türkiye"],
+    "E": ["Germany", "Jamaica", "Côte d'Ivoire", "Ecuador"],
+    "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
+    "G": ["Belgium", "Egypt", "IR Iran", "New Zealand"],
+    "H": ["Spain", "Greece", "Saudi Arabia", "Uruguay"],
+    "I": ["France", "Senegal", "Iraq", "Norway"],
+    "J": ["Argentina", "Algeria", "Austria", "Jordan"],
+    "K": ["Portugal", "Congo DR", "Uzbekistan", "Colombia"],
+    "L": ["England", "Croatia", "Ghana", "Panama"]
 }
 SETZENS_MANUALS = [
     ("South Africa", "Canada"),
@@ -309,21 +261,32 @@ SETZENS_MANUALS = [
     ("Colombia", "Ghana"),
     ("Australia", "Egypt")
 ]
-VUITENS_MANUALS = [("Paraguay", "France"),
-("Canada", "Morocco"),
-("Brazil", "Norway"),
-("Mexico", "England"),
-("Portugal", "Spain"),
-("USA", "Belgium"),
-("Argentina", "Egypt"),
-("Switzerland", "Colombia")]
-QUARTS_MANUALS = [("France", "Morocco"),
-("Spain", "Belgium"),
-("Norway", "England"),
-("Argentina", "Switzerland")]
-SEMIFINALS_MANUALS = [("France", "Spain"),
-("England", "Argentina")]
+VUITENS_MANUALS = [
+    ("Paraguay", "France"),
+    ("Canada", "Morocco"),
+    ("Brazil", "Norway"),
+    ("Mexico", "England"),
+    ("Portugal", "Spain"),
+    ("USA", "Belgium"),
+    ("Argentina", "Egypt"),
+    ("Switzerland", "Colombia")
+]
+QUARTS_MANUALS = [
+    ("France", "Morocco"),
+    ("Spain", "Belgium"),
+    ("Norway", "England"),
+    ("Argentina", "Switzerland")
+]
+SEMIFINALS_MANUALS = [("France", "Spain"), ("England", "Argentina")]
 FINAL_MANUALS = [("Spain", "Argentina")]
+
+PARTITS_PER_FASE = {
+    "SETZENS": SETZENS_MANUALS,
+    "VUITENS": VUITENS_MANUALS,
+    "QUARTS": QUARTS_MANUALS,
+    "SEMIFINALS": SEMIFINALS_MANUALS,
+    "FINAL": FINAL_MANUALS
+}
 # ==========================================================
 # SIMULAR UN GRUP
 # ==========================================================
@@ -482,18 +445,8 @@ def simular_mundial_desde(ronda_inici, equips_inicials=None, partits_manuals=Non
         raise ValueError("Has de passar 'equips_inicials' o 'partits_manuals' per començar des d'aquesta ronda.")
 
     for nom in ronda_ordres[inici + 1:]:
-        if nom == "SETZENS" and SETZENS_MANUALS:
-            equips = ronda_manual(SETZENS_MANUALS, nom)
-        elif nom == "VUITENS" and VUITENS_MANUALS:
-            equips = ronda_manual(VUITENS_MANUALS, nom)
-        elif nom == "QUARTS" and QUARTS_MANUALS:
-            equips = ronda_manual(QUARTS_MANUALS, nom)
-        elif nom == "SEMIFINALS" and SEMIFINALS_MANUALS:
-            equips = ronda_manual(SEMIFINALS_MANUALS, nom)
-        elif nom == "FINAL" and FINAL_MANUALS:
-            equips = ronda_manual(FINAL_MANUALS, nom)
-        else:
-            equips = ronda(equips, nom)
+        partits = PARTITS_PER_FASE[nom]
+        equips = ronda_manual(partits, nom) if partits else ronda(equips, nom)
 
     return equips[-1]
 
@@ -503,31 +456,10 @@ def simular_mundial_desde(ronda_inici, equips_inicials=None, partits_manuals=Non
 
 def simular_mundial():
     equips = fase_grups()
-    equips = ronda(
-        equips,
-        "SETZENS"
-    )
-    equips = ronda(
-        equips,
-        "VUITENS"
-    )
-    equips = ronda(
-        equips,
-        "QUARTS"
-    )
-    equips = ronda(
-        equips,
-        "SEMIFINALS"
-    )
-    campio = ronda(
-        equips,
-        "FINAL"
-    )[0]
-
-    print("\n🏆 CAMPIÓ DEL MUNDIAL 2026")
-
-    print(campio)
-
+    for nom in ["SETZENS", "VUITENS", "QUARTS", "SEMIFINALS", "FINAL"]:
+        equips = ronda(equips, nom)
+    campio = equips[0]
+    print(f"\nCAMPIÓ DEL MUNDIAL 2026\n{campio}")
     return campio
 
 
@@ -559,7 +491,6 @@ def menu_simulacio():
 
     print("Escriu una fase exactament com apareix aquí, sense cometes.")
     print("Opcions: SETZENS, VUITENS, QUARTS, SEMIFINALS o FINAL")
-    print("Exemple: QUARTS")
     while True:
         fase = input("Fase inicial: ").strip().upper()
         if fase in rondes:
@@ -570,12 +501,6 @@ def menu_simulacio():
 def executar_simulacio():
     eleccio, repeticions = menu_simulacio()
     campions = Counter()
-    partits_per_fase = {
-        "VUITENS": VUITENS_MANUALS,
-        "QUARTS": QUARTS_MANUALS,
-        "SEMIFINALS": SEMIFINALS_MANUALS,
-        "FINAL": FINAL_MANUALS
-    }
 
     for _ in range(repeticions):
         if eleccio == "COMPLET":
@@ -583,7 +508,7 @@ def executar_simulacio():
         else:
             campio = simular_mundial_desde(
                 eleccio,
-                partits_manuals=partits_per_fase.get(eleccio)
+                partits_manuals=PARTITS_PER_FASE.get(eleccio)
             )
         campions[campio] += 1
 
@@ -602,5 +527,4 @@ def executar_simulacio():
 # ==========================================================
 
 if __name__ == "__main__":
-    from collections import Counter
     executar_simulacio()
