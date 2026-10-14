@@ -10,7 +10,7 @@ from sklearn.metrics import accuracy_score, classification_report, confusion_mat
 ARCHIVO = "teams_match_features.csv"
 FECHA_INICIO = "2010-01-01"
 FECHA_CORTE = "2022-12-31"
-N_SIMULACIONES = 100000
+N_SIMULACIONES = 100
 SEMILLA = 42
 
 random.seed(SEMILLA)
@@ -26,19 +26,12 @@ df = df[df["_date"] >= pd.to_datetime(FECHA_INICIO)].copy()
 df = df.sort_values("_date").reset_index(drop=True)
 
 
-# ==========================================================
-# VARIABLE OBJETIVO
-# ==========================================================
-
 def obtener_resultado(row):
     if row["home_goals"] > row["away_goals"]:
         return 0
-    elif row["home_goals"] == row["away_goals"]:
+    if row["home_goals"] == row["away_goals"]:
         return 1
-    else:
-        return 2
-
-df["resultado"] = df.apply(obtener_resultado, axis=1)
+    return 2
 
 # ==========================================================
 # VARIABLES DEL MODELO
@@ -51,6 +44,8 @@ variables = [
     "home_form_win_rate", "away_form_win_rate",
     "is_neutral", "is_world_cup", "is_continental",
 ]
+
+df["resultado"] = df.apply(obtener_resultado, axis=1)
 
 # ==========================================================
 # LIMPIAR DATOS
@@ -73,25 +68,12 @@ y_train = train["resultado"]
 y_test = test["resultado"]
 
 
-# ==========================================================
-# MODELO DE RESULTADO
-# ==========================================================
-
 modelo_resultado = RandomForestClassifier(
-    n_estimators=700,
-    max_depth=14,
-    min_samples_split=8,
-    min_samples_leaf=3,
-    max_features="sqrt",
-    class_weight="balanced",
-    random_state=SEMILLA,
-    n_jobs=-1
+    n_estimators=700, max_depth=14, min_samples_split=8,
+    min_samples_leaf=3, max_features="sqrt", class_weight="balanced",
+    random_state=SEMILLA, n_jobs=-1,
 )
-
-modelo_resultado.fit(
-    X_train,
-    y_train
-)
+modelo_resultado.fit(X_train, y_train)
 
 
 # ==========================================================
@@ -120,10 +102,6 @@ print("Matriz de confusión:")
 print(confusion_matrix(y_test, predicciones))
 
 
-# ==========================================================
-# IMPORTANCIA DE VARIABLES
-# ==========================================================
-
 importancias = pd.DataFrame({"Variable": variables, "Importancia": modelo_resultado.feature_importances_})
 importancias = importancias.sort_values("Importancia", ascending=False)
 
@@ -134,11 +112,6 @@ print("==========================================")
 print()
 print(importancias.to_string(index=False))
 
-
-# ==========================================================
-# MODELOS DE GOLES
-# ==========================================================
-
 variables_goles = [
     "elo_diff", "overall_diff", "attack_diff", "defense_diff",
     "home_form_scored", "away_form_scored",
@@ -147,61 +120,17 @@ variables_goles = [
     "is_neutral", "is_world_cup", "is_continental",
 ]
 
-
 modelo_goles_local = RandomForestRegressor(
-
-    n_estimators=500,
-
-    max_depth=14,
-
-    min_samples_split=8,
-
-    min_samples_leaf=3,
-
-    max_features="sqrt",
-
-    random_state=SEMILLA,
-
-    n_jobs=-1
-
+    n_estimators=500, max_depth=14, min_samples_split=8,
+    min_samples_leaf=3, max_features="sqrt", random_state=SEMILLA, n_jobs=-1,
 )
-
-
 modelo_goles_visitante = RandomForestRegressor(
-
-    n_estimators=500,
-
-    max_depth=14,
-
-    min_samples_split=8,
-
-    min_samples_leaf=3,
-
-    max_features="sqrt",
-
-    random_state=SEMILLA,
-
-    n_jobs=-1
-
+    n_estimators=500, max_depth=14, min_samples_split=8,
+    min_samples_leaf=3, max_features="sqrt", random_state=SEMILLA, n_jobs=-1,
 )
 
-
-modelo_goles_local.fit(
-
-    train[variables_goles],
-
-    train["home_goals"]
-
-)
-
-
-modelo_goles_visitante.fit(
-
-    train[variables_goles],
-
-    train["away_goals"]
-
-)
+modelo_goles_local.fit(train[variables_goles], train["home_goals"])
+modelo_goles_visitante.fit(train[variables_goles], train["away_goals"])
 
 
 # ==========================================================
@@ -209,50 +138,19 @@ modelo_goles_visitante.fit(
 # ==========================================================
 
 equipos = {}
-
-
 for _, fila in df.sort_values("_date").iterrows():
-
-    home = fila["_home_team"]
-
-    away = fila["_away_team"]
-
-
+    home, away = fila["_home_team"], fila["_away_team"]
     equipos[home] = {
-
-        "elo": fila["home_elo"],
-
-        "overall": fila["home_avg_overall"],
-
-        "attack": fila["home_avg_attack"],
-
-        "defense": fila["home_avg_defense"],
-
-        "scored": fila["home_form_scored"],
-
-        "conceded": fila["home_form_conceded"],
-
-        "winrate": fila["home_form_win_rate"]
-
+        "elo": fila["home_elo"], "overall": fila["home_avg_overall"],
+        "attack": fila["home_avg_attack"], "defense": fila["home_avg_defense"],
+        "scored": fila["home_form_scored"], "conceded": fila["home_form_conceded"],
+        "winrate": fila["home_form_win_rate"],
     }
-
-
     equipos[away] = {
-
-        "elo": fila["away_elo"],
-
-        "overall": fila["away_avg_overall"],
-
-        "attack": fila["away_avg_attack"],
-
-        "defense": fila["away_avg_defense"],
-
-        "scored": fila["away_form_scored"],
-
-        "conceded": fila["away_form_conceded"],
-
-        "winrate": fila["away_form_win_rate"]
-
+        "elo": fila["away_elo"], "overall": fila["away_avg_overall"],
+        "attack": fila["away_avg_attack"], "defense": fila["away_avg_defense"],
+        "scored": fila["away_form_scored"], "conceded": fila["away_form_conceded"],
+        "winrate": fila["away_form_win_rate"],
     }
 
 
@@ -283,163 +181,62 @@ for antiguo, nuevo in equivalencias.items():
 # ==========================================================
 
 def nom_dataset(equipo):
-
     if equipo in equipos:
-
         return equipo
-
     if equipo in mapa:
-
         return mapa[equipo]
-
     return equipo
-
 
 # ==========================================================
 # COMPROBAR EQUIPO
 # ==========================================================
 
 def comprobar_equipo(equipo):
-
     equipo_dataset = nom_dataset(equipo)
-
     if equipo_dataset not in equipos:
-
-        raise ValueError(
-            f"No hay datos para el equipo: {equipo}"
-        )
-
+        raise ValueError(f"No hay datos para el equipo: {equipo}")
     return equipo_dataset
-
 
 # ==========================================================
 # CREAR DATOS DE UN PARTIDO
 # ==========================================================
 
 def datos_partido(equipo1, equipo2):
-
     equipo1 = comprobar_equipo(equipo1)
-
     equipo2 = comprobar_equipo(equipo2)
-
-    t1 = equipos[equipo1]
-
-    t2 = equipos[equipo2]
-
-
-    datos = pd.DataFrame([{
-
-        "elo_diff":
-            t1["elo"] - t2["elo"],
-
-        "overall_diff":
-            t1["overall"] - t2["overall"],
-
-        "attack_diff":
-            t1["attack"] - t2["attack"],
-
-        "defense_diff":
-            t1["defense"] - t2["defense"],
-
-        "home_form_scored":
-            t1["scored"],
-
-        "away_form_scored":
-            t2["scored"],
-
-        "home_form_conceded":
-            t1["conceded"],
-
-        "away_form_conceded":
-            t2["conceded"],
-
-        "home_form_win_rate":
-            t1["winrate"],
-
-        "away_form_win_rate":
-            t2["winrate"],
-
-        "is_neutral":
-            1,
-
-        "is_world_cup":
-            1,
-
-        "is_continental":
-            0
-
+    t1, t2 = equipos[equipo1], equipos[equipo2]
+    return pd.DataFrame([{
+        "elo_diff": t1["elo"] - t2["elo"],
+        "overall_diff": t1["overall"] - t2["overall"],
+        "attack_diff": t1["attack"] - t2["attack"],
+        "defense_diff": t1["defense"] - t2["defense"],
+        "home_form_scored": t1["scored"],
+        "away_form_scored": t2["scored"],
+        "home_form_conceded": t1["conceded"],
+        "away_form_conceded": t2["conceded"],
+        "home_form_win_rate": t1["winrate"],
+        "away_form_win_rate": t2["winrate"],
+        "is_neutral": 1,
+        "is_world_cup": 1,
+        "is_continental": 0,
     }])
-
-
-    return datos
-
 
 # ==========================================================
 # PROBABILIDADES DEL PARTIDO
 # ==========================================================
 
 def probabilidades(equipo1, equipo2):
-
-    datos = datos_partido(
-        equipo1,
-        equipo2
-    )
-
-
-    probabilidades = (
-        modelo_resultado
-        .predict_proba(datos)[0]
-    )
-
-
-    return {
-
-        "victoria_1":
-            probabilidades[0],
-
-        "empate":
-            probabilidades[1],
-
-        "victoria_2":
-            probabilidades[2]
-
-    }
-
+    p = modelo_resultado.predict_proba(datos_partido(equipo1, equipo2))[0]
+    return {"victoria_1": p[0], "empate": p[1], "victoria_2": p[2]}
 
 # ==========================================================
 # GOLES ESPERADOS
 # ==========================================================
 
 def goles_esperados(equipo1, equipo2):
-
-    datos = datos_partido(
-        equipo1,
-        equipo2
-    )
-
-
-    goles1 = modelo_goles_local.predict(
-        datos
-    )[0]
-
-
-    goles2 = modelo_goles_visitante.predict(
-        datos
-    )[0]
-
-
-    goles1 = max(
-        0.15,
-        min(goles1, 5.0)
-    )
-
-
-    goles2 = max(
-        0.15,
-        min(goles2, 5.0)
-    )
-
-
+    datos = datos_partido(equipo1, equipo2)
+    goles1 = max(0.15, min(modelo_goles_local.predict(datos)[0], 5.0))
+    goles2 = max(0.15, min(modelo_goles_visitante.predict(datos)[0], 5.0))
     return goles1, goles2
 
 

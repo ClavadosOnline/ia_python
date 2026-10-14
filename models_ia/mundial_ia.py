@@ -194,40 +194,17 @@ def probabilitat(equip1, equip2):
     t2 = equips[equip2]
 
     dades = pd.DataFrame([{
-
-        "elo_diff":
-            t1["elo"] - t2["elo"],
-
-        "overall_diff":
-            t1["overall"] - t2["overall"],
-
-        "attack_diff":
-            t1["attack"] - t2["attack"],
-
-        "defense_diff":
-            t1["defense"] - t2["defense"],
-
-        "home_form_scored":
-            t1["scored"],
-
-        "away_form_scored":
-            t2["scored"],
-
-        "home_form_conceded":
-            t1["conceded"],
-
-        "away_form_conceded":
-            t2["conceded"],
-
-        "home_form_win_rate":
-            t1["winrate"],
-
-        "away_form_win_rate":
-            t2["winrate"],
-
-        "is_neutral":
-            1
-
+        "elo_diff": t1["elo"] - t2["elo"],
+        "overall_diff": t1["overall"] - t2["overall"],
+        "attack_diff": t1["attack"] - t2["attack"],
+        "defense_diff": t1["defense"] - t2["defense"],
+        "home_form_scored": t1["scored"],
+        "away_form_scored": t2["scored"],
+        "home_form_conceded": t1["conceded"],
+        "away_form_conceded": t2["conceded"],
+        "home_form_win_rate": t1["winrate"],
+        "away_form_win_rate": t2["winrate"],
+        "is_neutral": 1
     }])
 
     return model.predict_proba(dades)[0][1]
@@ -314,7 +291,39 @@ GRUPS = {
     "K": ["Portugal","Congo DR","Uzbekistan","Colombia"],
     "L": ["England","Croatia","Ghana","Panama"]
 }
-
+SETZENS_MANUALS = [
+    ("South Africa", "Canada"),
+    ("Germany", "Paraguay"),
+    ("Netherlands", "Morocco"),
+    ("Brazil", "Japan"),
+    ("France", "Sweden"),
+    ("Côte d'Ivoire", "Norway"),
+    ("Mexico", "Ecuador"),
+    ("England", "Congo DR"),
+    ("USA", "Bosnia and Herzegovina"),
+    ("Belgium", "Senegal"),
+    ("Portugal", "Croatia"),
+    ("Spain", "Austria"),
+    ("Switzerland", "Algeria"),
+    ("Argentina", "Cape Verde"),
+    ("Colombia", "Ghana"),
+    ("Australia", "Egypt")
+]
+VUITENS_MANUALS = [("Paraguay", "France"),
+("Canada", "Morocco"),
+("Brazil", "Norway"),
+("Mexico", "England"),
+("Portugal", "Spain"),
+("USA", "Belgium"),
+("Argentina", "Egypt"),
+("Switzerland", "Colombia")]
+QUARTS_MANUALS = [("France", "Morocco"),
+("Spain", "Belgium"),
+("Norway", "England"),
+("Argentina", "Switzerland")]
+SEMIFINALS_MANUALS = [("France", "Spain"),
+("England", "Argentina")]
+FINAL_MANUALS = [("Spain", "Argentina")]
 # ==========================================================
 # SIMULAR UN GRUP
 # ==========================================================
@@ -434,6 +443,61 @@ def ronda(equips, nom):
     return classificats
 
 # ==========================================================
+# INICIAR DESDE UNA RONDA CONCRETA
+# ==========================================================
+
+def ronda_manual(partits, nom):
+    print(f"\n===== {nom} =====")
+    classificats = []
+    for e1, e2 in partits:
+        while True:
+            g1, g2 = simular_partit(e1, e2)
+            if g1 != g2:
+                break
+        guanyador = e1 if g1 > g2 else e2
+        print(f"{e1} {g1}-{g2} {e2} -> {guanyador}")
+        classificats.append(guanyador)
+    return classificats
+
+
+def simular_mundial_desde(ronda_inici, equips_inicials=None, partits_manuals=None):
+    """Simula el mundial començant des de la ronda indicada.
+    ronda_inici pot ser: 'SETZENS', 'VUITENS', 'QUARTS', 'SEMIFINALS', 'FINAL'.
+    Pots passar una llista manual per la fase concreta o una llista d'equips inicials.
+    """
+    ronda_ordres = ["SETZENS", "VUITENS", "QUARTS", "SEMIFINALS", "FINAL"]
+    if ronda_inici not in ronda_ordres:
+        raise ValueError(f"Ronda no vàlida: {ronda_inici}")
+
+    inici = ronda_ordres.index(ronda_inici)
+    equips = fase_grups() if inici == 0 else list(equips_inicials or [])
+
+    if inici == 0:
+        equips = ronda(equips, "SETZENS")
+    elif partits_manuals is not None:
+        equips = ronda_manual(partits_manuals, ronda_inici)
+    elif equips_inicials is not None:
+        equips = ronda(equips_inicials, ronda_inici)
+    else:
+        raise ValueError("Has de passar 'equips_inicials' o 'partits_manuals' per començar des d'aquesta ronda.")
+
+    for nom in ronda_ordres[inici + 1:]:
+        if nom == "SETZENS" and SETZENS_MANUALS:
+            equips = ronda_manual(SETZENS_MANUALS, nom)
+        elif nom == "VUITENS" and VUITENS_MANUALS:
+            equips = ronda_manual(VUITENS_MANUALS, nom)
+        elif nom == "QUARTS" and QUARTS_MANUALS:
+            equips = ronda_manual(QUARTS_MANUALS, nom)
+        elif nom == "SEMIFINALS" and SEMIFINALS_MANUALS:
+            equips = ronda_manual(SEMIFINALS_MANUALS, nom)
+        elif nom == "FINAL" and FINAL_MANUALS:
+            equips = ronda_manual(FINAL_MANUALS, nom)
+        else:
+            equips = ronda(equips, nom)
+
+    return equips[-1]
+
+# ==========================================================
 # MUNDIAL COMPLET
 # ==========================================================
 
@@ -466,32 +530,77 @@ def simular_mundial():
 
     return campio
 
+
+def preguntar_entero(text, minim=1):
+    while True:
+        valor = input(text).strip()
+        try:
+            valor = int(valor)
+            if valor >= minim:
+                return valor
+            print(f"Ha de ser un número major o igual a {minim}.")
+        except ValueError:
+            print("Escriu un número vàlid.")
+
+
+def menu_simulacio():
+    rondes = ["SETZENS", "VUITENS", "QUARTS", "SEMIFINALS", "FINAL"]
+
+    while True:
+        mode = input("Vols simular el mundial complet o començar des d'una fase? [C/F]: ").strip().upper()
+        if mode in {"C", "F"}:
+            break
+        print("Opció no vàlida. Escriu 'C' o 'F'.")
+
+    repeticions = preguntar_entero("Quantes vegades vols repetir la simulació? ", 1)
+
+    if mode == "C":
+        return "COMPLET", repeticions
+
+    print("Escriu una fase exactament com apareix aquí, sense cometes.")
+    print("Opcions: SETZENS, VUITENS, QUARTS, SEMIFINALS o FINAL")
+    print("Exemple: QUARTS")
+    while True:
+        fase = input("Fase inicial: ").strip().upper()
+        if fase in rondes:
+            return fase, repeticions
+        print("Fase no vàlida. Torna-ho a provar.")
+
+
+def executar_simulacio():
+    eleccio, repeticions = menu_simulacio()
+    campions = Counter()
+    partits_per_fase = {
+        "VUITENS": VUITENS_MANUALS,
+        "QUARTS": QUARTS_MANUALS,
+        "SEMIFINALS": SEMIFINALS_MANUALS,
+        "FINAL": FINAL_MANUALS
+    }
+
+    for _ in range(repeticions):
+        if eleccio == "COMPLET":
+            campio = simular_mundial()
+        else:
+            campio = simular_mundial_desde(
+                eleccio,
+                partits_manuals=partits_per_fase.get(eleccio)
+            )
+        campions[campio] += 1
+
+    print("\n==========================")
+    print("PROBABILITAT DE SER CAMPIÓ")
+    print("==========================")
+
+    total = sum(campions.values())
+    for equip, vegades in campions.most_common():
+        print(f"{equip:20s} {(vegades / total) * 100:.2f}%")
+
+    return campions
+
 # ==========================================================
 # EXECUTAR
 # ==========================================================
 
 if __name__ == "__main__":
-
-    campio = simular_mundial()
-
-from collections import Counter
-
-N = 10000
-
-campions = Counter()
-
-for i in range(N):
-
-    campio = simular_mundial()
-
-    campions[campio] += 1
-
-print("\n==========================")
-print("PROBABILITAT DE SER CAMPIÓ")
-print("==========================")
-
-for equip, vegades in campions.most_common():
-
-    print(
-        f"{equip:20s} {vegades/N*100:.2f}%"
-    )
+    from collections import Counter
+    executar_simulacio()
