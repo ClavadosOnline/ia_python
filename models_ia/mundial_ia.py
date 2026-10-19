@@ -12,6 +12,22 @@ from sklearn.metrics import accuracy_score, classification_report
 
 df = pd.read_csv("teams_match_features.csv")
 
+equivalencies = {
+    "United States": "USA",
+    "South Korea": "Korea Republic",
+    "Iran": "IR Iran",
+    "Turkey": "Türkiye",
+    "Czech Republic": "Czechia",
+    "DR Congo": "Congo DR",
+    "Ivory Coast": "Côte d'Ivoire",
+    "Cabo Verde": "Cape Verde",
+    "Cabo Verde Islands": "Cape Verde",
+    "Cape Verde Islands": "Cape Verde"
+}
+
+for column in ["_home_team", "_away_team"]:
+    df[column] = df[column].replace(equivalencies)
+
 df = df[df["_date"] >= "2010-01-01"].copy()
 
 # ==========================================================
@@ -77,8 +93,6 @@ model.fit(X_train, y_train)
 pred = model.predict(X_test)
 print("\nPrecisió:")
 print(accuracy_score(y_test, pred))
-print("\nInforme:\n")
-print(classification_report(y_test, pred))
 
 # ==========================================================
 # IMPORTÀNCIA VARIABLES
@@ -123,30 +137,27 @@ for _, fila in df.sort_values("_date").iterrows():
         "winrate": fila["away_form_win_rate"]
     }
 
-# ==========================================================
-# EQUIVALÈNCIES DE NOMS
-# ==========================================================
-
-equivalencies = {
-    "United States": "USA",
-    "South Korea": "Korea Republic",
-    "Iran": "IR Iran",
-    "Turkey": "Türkiye",
-    "Czech Republic": "Czechia",
-    "DR Congo": "Congo DR",
-    "Ivory Coast": "Côte d'Ivoire"
-}
-
-mapa = {nou: antic for antic, nou in equivalencies.items()}
+if "Cape Verde" not in equips:
+    forma = pd.read_csv("teams_form.csv")
+    forma["team"] = forma["team"].replace(equivalencies)
+    forma_cape_verde = forma[forma["team"] == "Cape Verde"].sort_values("match_date")
+    ultima_forma = forma_cape_verde.iloc[-1]
+    equips["Cape Verde"] = {
+        "elo": 1500.0,
+        "overall": df["home_avg_overall"].mean(),
+        "attack": df["home_avg_attack"].mean(),
+        "defense": df["home_avg_defense"].mean(),
+        "scored": ultima_forma["avg_goals_scored"],
+        "conceded": ultima_forma["avg_goals_conceded"],
+        "winrate": ultima_forma["win_rate"]
+    }
 
 # ==========================================================
 # NORMALITZAR NOM
 # ==========================================================
 
 def nom_dataset(equip):
-    if equip in equips:
-        return equip
-    return mapa.get(equip, equip)
+    return equivalencies.get(equip, equip)
 
 # ==========================================================
 # PROBABILITAT DE VICTÒRIA
@@ -193,7 +204,9 @@ def simular_partit(equip1, equip2):
             (2, 0),
             (2, 1),
             (1, 0),
-            (3, 1)
+            (3, 1),
+            (4, 2),
+            (3, 2)
         ])
     elif p > 0.55:
         marcador = random.choice([
@@ -237,7 +250,7 @@ GRUPS = {
     "E": ["Germany", "Jamaica", "Côte d'Ivoire", "Ecuador"],
     "F": ["Netherlands", "Japan", "Sweden", "Tunisia"],
     "G": ["Belgium", "Egypt", "IR Iran", "New Zealand"],
-    "H": ["Spain", "Greece", "Saudi Arabia", "Uruguay"],
+    "H": ["Spain", "Cape Verde", "Saudi Arabia", "Uruguay"],
     "I": ["France", "Senegal", "Iraq", "Norway"],
     "J": ["Argentina", "Algeria", "Austria", "Jordan"],
     "K": ["Portugal", "Congo DR", "Uzbekistan", "Colombia"],
@@ -433,20 +446,18 @@ def simular_mundial_desde(ronda_inici, equips_inicials=None, partits_manuals=Non
         raise ValueError(f"Ronda no vàlida: {ronda_inici}")
 
     inici = ronda_ordres.index(ronda_inici)
-    equips = fase_grups() if inici == 0 else list(equips_inicials or [])
 
-    if inici == 0:
-        equips = ronda(equips, "SETZENS")
-    elif partits_manuals is not None:
+    if partits_manuals is not None:
         equips = ronda_manual(partits_manuals, ronda_inici)
+    elif inici == 0:
+        equips = ronda(fase_grups(), ronda_inici)
     elif equips_inicials is not None:
         equips = ronda(equips_inicials, ronda_inici)
     else:
         raise ValueError("Has de passar 'equips_inicials' o 'partits_manuals' per començar des d'aquesta ronda.")
 
     for nom in ronda_ordres[inici + 1:]:
-        partits = PARTITS_PER_FASE[nom]
-        equips = ronda_manual(partits, nom) if partits else ronda(equips, nom)
+        equips = ronda(equips, nom)
 
     return equips[-1]
 
